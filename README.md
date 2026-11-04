@@ -2,8 +2,8 @@
 
 **Phase 1 audit delivered; official baseline reproduction remains blocked.**
 The official source named in the paper is unavailable; the accessible copy is
-unverified. No GPU/model experiment, trained baseline, supervision guard, or
-adversarial experiment is claimed.
+unverified. No GPU/model experiment, trained baseline, or supervision guard is
+claimed. The separate Track B diagnostic below uses controlled response edits.
 
 Completed: source/methodology/dataset audits, real-data integrity checks across
 127,916 released turns, deterministic457-turn sample, gold-blind adapters,
@@ -50,3 +50,14 @@ The next scientific prerequisite is an authenticated original source/checkpoint
 and its experiment artifacts. A Kaggle GPU alone does not resolve provenance
 or missing retrieval/candidate data. The notebook's default CPU-compatible audit
 can run now; expensive stages are deliberately disabled until inputs exist.
+
+## Independent Track B experiment
+
+Track B ran a CPU BM25 diagnostic with 11 controlled pairs from six TopiOCQA
+training conversations and a 58-article, revision-pinned Wikipedia lead
+snapshot. It is **not** a DualReform baseline reproduction. The local target-loss
+signal is inconclusive for the published method because the original passage
+corpus is unavailable and this alternative corpus often yields fewer than three
+hits. Read the [experiment](reports/track_b_experiment.md), [case analysis](reports/track_b_failure_analysis.md),
+and [limitations](reports/track_b_limitations.md), then inspect
+`results/track_b/` for rankings, metrics, manual review, and manifests.

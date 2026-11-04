@@ -1,0 +1,17 @@
+{
+  "reviewer": "assistant; single manual review, independent of the pair generator",
+  "criterion": "The article about the referent of the benchmark follow-up is the nominated target page. This does not declare all other articles irrelevant, and is not a benchmark qrels judgment.",
+  "reviewed_cases": {
+    "A_scott_actor": {"verdict":"target-page loss in this corpus", "evidence":"The Scott Pilgrim film lead names Mary Elizabeth Winstead as Ramona; it does not name Scarlett Johansson. The follow-up asks what kind of work 'this' is, preserving the film referent.", "target_revision":"https://en.wikipedia.org/w/index.php?oldid=1383320551"},
+    "A_space_developer": {"verdict":"target-page loss in this corpus", "evidence":"The Space Invaders lead names Tomohiro Nishikado as designer; Shigeru Miyamoto is unsupported. The follow-up asks about sequels of the game.", "target_revision":"https://en.wikipedia.org/w/index.php?oldid=1383438025"},
+    "A_carol_author": {"verdict":"target-page loss in this corpus", "evidence":"The A Christmas Carol lead names Charles Dickens as author; Jane Austen is unsupported. The follow-up asks when the novella was published.", "target_revision":"https://en.wikipedia.org/w/index.php?oldid=1383244047"},
+    "A_blade_director": {"verdict":"falsifying stable target", "evidence":"The Blade Runner 2049 lead names Denis Villeneuve as director and Ridley Scott as executive producer. The director substitution is inaccurate, yet the film remains in the response-only top three.", "target_revision":"https://en.wikipedia.org/w/index.php?oldid=1381652668"},
+    "B_yttrium_person": {"verdict":"expected referent change", "evidence":"The follow-up 'where was he born?' points to the sole named man in either response. The two distinct biography pages are available in the corpus."},
+    "B_lastofus_company": {"verdict":"expected referent change", "evidence":"The follow-up 'when was this established?' points to the sole named company in either response. The two distinct company pages are available."},
+    "C_yttrium_two_people": {"verdict":"ambiguous; no unique gold referent", "evidence":"Both named men can antecede 'he'. The original and the second biography both appear in the modified response-only top three."},
+    "C_lastofus_two_companies": {"verdict":"ambiguous; incomplete top-three coverage", "evidence":"Both named companies can antecede 'this'. The modified response-only top three contains Naughty Dog but Ubisoft is rank five; this alone is not an ambiguity-handling error."},
+    "D_scott_punctuation": {"verdict":"stable negative control", "evidence":"Only a terminal period changes; token sequence and full response-only ranking are identical."},
+    "D_space_punctuation": {"verdict":"stable negative control", "evidence":"Only a terminal exclamation mark changes; token sequence and full response-only ranking are identical."},
+    "D_carol_punctuation": {"verdict":"stable negative control", "evidence":"Only a terminal period changes; token sequence and full response-only ranking are identical."}
+  }
+}

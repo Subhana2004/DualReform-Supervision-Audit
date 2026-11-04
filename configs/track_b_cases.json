@@ -1,0 +1,13 @@
+[
+  {"id":"A_scott_actor","category":"A","conversation_no":6,"turn_no":1,"followup_turn_no":2,"old":"Mary Elizabeth Winstead","new":"Scarlett Johansson"},
+  {"id":"A_space_developer","category":"A","conversation_no":20,"turn_no":3,"followup_turn_no":4,"old":"Tomohiro Nishikado","new":"Shigeru Miyamoto"},
+  {"id":"A_carol_author","category":"A","conversation_no":23,"turn_no":2,"followup_turn_no":3,"old":"Charles Dickens","new":"Jane Austen"},
+  {"id":"A_blade_director","category":"A","conversation_no":18,"turn_no":1,"followup_turn_no":2,"old":"Denis Villeneuve","new":"Ridley Scott"},
+  {"id":"B_yttrium_person","category":"B","conversation_no":2,"turn_no":3,"followup_turn_no":4,"old":"Carl Axel Arrhenius","new":"Humphry Davy"},
+  {"id":"B_lastofus_company","category":"B","conversation_no":22,"turn_no":3,"followup_turn_no":4,"old":"Naughty Dog","new":"Ubisoft"},
+  {"id":"C_yttrium_two_people","category":"C","conversation_no":2,"turn_no":3,"followup_turn_no":4,"old":"Carl Axel Arrhenius","new":"Carl Axel Arrhenius and Humphry Davy"},
+  {"id":"C_lastofus_two_companies","category":"C","conversation_no":22,"turn_no":3,"followup_turn_no":4,"old":"Naughty Dog","new":"Naughty Dog and Ubisoft"},
+  {"id":"D_scott_punctuation","category":"D","conversation_no":6,"turn_no":1,"followup_turn_no":2,"old":"Mary Elizabeth Winstead","new":"Mary Elizabeth Winstead."},
+  {"id":"D_space_punctuation","category":"D","conversation_no":20,"turn_no":3,"followup_turn_no":4,"old":"Tomohiro Nishikado","new":"Tomohiro Nishikado!"},
+  {"id":"D_carol_punctuation","category":"D","conversation_no":23,"turn_no":2,"followup_turn_no":3,"old":"Charles Dickens","new":"Charles Dickens."}
+]

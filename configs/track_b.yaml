@@ -1,0 +1,16 @@
+{
+  "experiment_id": "track-b-independent-wikipedia-leads-v1",
+  "seed": 42,
+  "dataset_archive": "data/raw/topiocqa.zip",
+  "dataset_sha256": "42f78d19cd9711364fda53f2905866605056ce48d108855196641b0dd41735ce",
+  "dataset_member": "topiocqa/topiocqa_train.json",
+  "corpus_path": "data/track_b_wikipedia_leads.jsonl",
+  "corpus_source": "English Wikipedia Action API lead extracts, page revision IDs recorded per document",
+  "corpus_license": "CC BY-SA 4.0; each document attributes its article and revision URL",
+  "official_topiocqa_corpus": false,
+  "retriever": {"algorithm": "independent BM25", "tokenizer": "Unicode word regex, casefold, no stemming or stopwords", "k1": 0.9, "b": 0.4, "top_k": 100, "pseudo_k": 3},
+  "diagnostics": {"question_anchored": "all prior questions + current question + response; never uses the next question", "title_filter": "question-anchored ranking filtered to article titles with at least two content tokens and at least two-thirds title-token coverage in prior/current questions"},
+  "titles": [
+    "Scott Pilgrim vs. the World", "Mary Elizabeth Winstead", "Scarlett Johansson", "Edgar Wright", "Michael Cera", "Brie Larson", "Hairspray (2007 film)", "Adam Shankman", "John Travolta", "A Christmas Carol", "Charles Dickens", "Jane Austen", "Oliver Twist", "Pride and Prejudice", "Space Invaders", "Tomohiro Nishikado", "Shigeru Miyamoto", "Atari", "Naughty Dog", "Ubisoft", "The Last of Us", "Neil Druckmann", "Crash Bandicoot", "Uncharted", "Yttrium", "Carl Axel Arrhenius", "Humphry Davy", "Stockholm", "Paris", "Pacific swift", "Common swift", "Apodidae", "Battle of Normandy", "Battle of Hastings", "Australia", "United Kingdom", "Sputnik 1", "Soviet Union", "Denis Villeneuve", "Blade Runner 2049", "Ridley Scott", "Ryan Gosling", "Fun Home (musical)", "Alison Bechdel", "Lisa Kron", "Uttar Pradesh", "Delhi Sultanate", "Manganese", "Weird Tales", "John Winthrop", "Publishers Clearing House", "Zack de la Rocha", "Rage Against the Machine", "Chemical element", "Bird", "Film", "Video game", "Wikipedia"
+  ]
+}
