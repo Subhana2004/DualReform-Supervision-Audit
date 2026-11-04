@@ -1,0 +1,798 @@
+{
+  "experiment_type": "independent_paper_derived_iteration_zero_diagnostic",
+  "official_baseline_reproduced": false,
+  "dataset": "TopiOCQA train",
+  "corpus_document_count": 58,
+  "cases": 11,
+  "category_counts": {
+    "A": 4,
+    "B": 2,
+    "C": 2,
+    "D": 3
+  },
+  "retrieval_calls": 132,
+  "trace_records": 66,
+  "incomplete_top3_records": 33,
+  "peak_traced_python_bytes": 1886675,
+  "index_build_seconds": 0.013673199999175267,
+  "retrieval_seconds": 0.07380879999982426,
+  "a_target_preserved_top3": 1,
+  "a_target_loss_proxy_ids": [
+    "A_scott_actor",
+    "A_space_developer",
+    "A_carol_author"
+  ],
+  "a_factual_contamination_proxy_ids": [
+    "A_scott_actor",
+    "A_space_developer",
+    "A_carol_author"
+  ],
+  "b_referent_change_responsive_top3": 2,
+  "d_identical_top3": 3,
+  "cases_detail": [
+    {
+      "case_id": "A_scott_actor",
+      "category": "A",
+      "expected_original_ids": [
+        "enwiki:17574075"
+      ],
+      "expected_counterfactual_ids": [
+        "enwiki:17574075"
+      ],
+      "methods": {
+        "response_only": {
+          "top3_overlap": 0.0,
+          "top10_overlap": 0.0,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:17574075": 2
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:17574075": null
+          },
+          "original_top3": [
+            "enwiki:2324849",
+            "enwiki:17574075",
+            "enwiki:13509953"
+          ],
+          "counterfactual_top3": [
+            "enwiki:20913246"
+          ]
+        },
+        "question_anchored": {
+          "top3_overlap": 0.5,
+          "top10_overlap": 0.8181818181818182,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:17574075": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:17574075": 1
+          },
+          "original_top3": [
+            "enwiki:17574075",
+            "enwiki:2324849",
+            "enwiki:1339248"
+          ],
+          "counterfactual_top3": [
+            "enwiki:17574075",
+            "enwiki:20913246",
+            "enwiki:2324849"
+          ]
+        },
+        "title_filter": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:17574075": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:17574075": 1
+          },
+          "original_top3": [
+            "enwiki:17574075"
+          ],
+          "counterfactual_top3": [
+            "enwiki:17574075"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "A_space_developer",
+      "category": "A",
+      "expected_original_ids": [
+        "enwiki:74337"
+      ],
+      "expected_counterfactual_ids": [
+        "enwiki:74337"
+      ],
+      "methods": {
+        "response_only": {
+          "top3_overlap": 0.0,
+          "top10_overlap": 0.0,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:74337": 2
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:74337": null
+          },
+          "original_top3": [
+            "enwiki:1045287",
+            "enwiki:74337"
+          ],
+          "counterfactual_top3": [
+            "enwiki:79982"
+          ]
+        },
+        "question_anchored": {
+          "top3_overlap": 0.5,
+          "top10_overlap": 0.8181818181818182,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:74337": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:74337": 2
+          },
+          "original_top3": [
+            "enwiki:74337",
+            "enwiki:1045287",
+            "enwiki:44667"
+          ],
+          "counterfactual_top3": [
+            "enwiki:79982",
+            "enwiki:74337",
+            "enwiki:1045287"
+          ]
+        },
+        "title_filter": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:74337": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:74337": 1
+          },
+          "original_top3": [
+            "enwiki:74337"
+          ],
+          "counterfactual_top3": [
+            "enwiki:74337"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "A_carol_author",
+      "category": "A",
+      "expected_original_ids": [
+        "enwiki:73670"
+      ],
+      "expected_counterfactual_ids": [
+        "enwiki:73670"
+      ],
+      "methods": {
+        "response_only": {
+          "top3_overlap": 0.0,
+          "top10_overlap": 0.0,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:73670": 2
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:73670": null
+          },
+          "original_top3": [
+            "enwiki:5884",
+            "enwiki:73670",
+            "enwiki:161301"
+          ],
+          "counterfactual_top3": [
+            "enwiki:15782",
+            "enwiki:24162"
+          ]
+        },
+        "question_anchored": {
+          "top3_overlap": 0.2,
+          "top10_overlap": 0.8181818181818182,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:73670": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:73670": 2
+          },
+          "original_top3": [
+            "enwiki:73670",
+            "enwiki:5884",
+            "enwiki:161301"
+          ],
+          "counterfactual_top3": [
+            "enwiki:24162",
+            "enwiki:73670",
+            "enwiki:15782"
+          ]
+        },
+        "title_filter": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:73670": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:73670": 1
+          },
+          "original_top3": [
+            "enwiki:73670"
+          ],
+          "counterfactual_top3": [
+            "enwiki:73670"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "A_blade_director",
+      "category": "A",
+      "expected_original_ids": [
+        "enwiki:39830741"
+      ],
+      "expected_counterfactual_ids": [
+        "enwiki:39830741"
+      ],
+      "methods": {
+        "response_only": {
+          "top3_overlap": 0.25,
+          "top10_overlap": 0.1111111111111111,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:39830741": 2
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:39830741": 2
+          },
+          "original_top3": [
+            "enwiki:505673",
+            "enwiki:39830741"
+          ],
+          "counterfactual_top3": [
+            "enwiki:25493",
+            "enwiki:39830741",
+            "enwiki:17574075"
+          ]
+        },
+        "question_anchored": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 0.5384615384615384,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:39830741": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:39830741": 1
+          },
+          "original_top3": [
+            "enwiki:39830741",
+            "enwiki:505673",
+            "enwiki:25493"
+          ],
+          "counterfactual_top3": [
+            "enwiki:39830741",
+            "enwiki:25493",
+            "enwiki:505673"
+          ]
+        },
+        "title_filter": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:39830741": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:39830741": 1
+          },
+          "original_top3": [
+            "enwiki:39830741"
+          ],
+          "counterfactual_top3": [
+            "enwiki:39830741"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "B_yttrium_person",
+      "category": "B",
+      "expected_original_ids": [
+        "enwiki:18826947"
+      ],
+      "expected_counterfactual_ids": [
+        "enwiki:14369"
+      ],
+      "methods": {
+        "response_only": {
+          "top3_overlap": 0.0,
+          "top10_overlap": 0.0,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:18826947": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:14369": 1
+          },
+          "original_top3": [
+            "enwiki:18826947"
+          ],
+          "counterfactual_top3": [
+            "enwiki:14369"
+          ]
+        },
+        "question_anchored": {
+          "top3_overlap": 0.5,
+          "top10_overlap": 0.8181818181818182,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:18826947": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:14369": 2
+          },
+          "original_top3": [
+            "enwiki:18826947",
+            "enwiki:5659",
+            "enwiki:20373503"
+          ],
+          "counterfactual_top3": [
+            "enwiki:5659",
+            "enwiki:14369",
+            "enwiki:20373503"
+          ]
+        },
+        "title_filter": {
+          "top3_overlap": null,
+          "top10_overlap": null,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:18826947": null
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:14369": null
+          },
+          "original_top3": [],
+          "counterfactual_top3": []
+        }
+      }
+    },
+    {
+      "case_id": "B_lastofus_company",
+      "category": "B",
+      "expected_original_ids": [
+        "enwiki:1317389"
+      ],
+      "expected_counterfactual_ids": [
+        "enwiki:563616"
+      ],
+      "methods": {
+        "response_only": {
+          "top3_overlap": 0.0,
+          "top10_overlap": 0.0,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:1317389": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:563616": 1
+          },
+          "original_top3": [
+            "enwiki:1317389",
+            "enwiki:39746321",
+            "enwiki:4606476"
+          ],
+          "counterfactual_top3": [
+            "enwiki:563616"
+          ]
+        },
+        "question_anchored": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 0.8181818181818182,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:1317389": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:563616": 4
+          },
+          "original_top3": [
+            "enwiki:1317389",
+            "enwiki:68127798",
+            "enwiki:39746321"
+          ],
+          "counterfactual_top3": [
+            "enwiki:1317389",
+            "enwiki:68127798",
+            "enwiki:39746321"
+          ]
+        },
+        "title_filter": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:1317389": null
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:563616": null
+          },
+          "original_top3": [
+            "enwiki:68127798"
+          ],
+          "counterfactual_top3": [
+            "enwiki:68127798"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "C_yttrium_two_people",
+      "category": "C",
+      "expected_original_ids": [
+        "enwiki:18826947"
+      ],
+      "expected_counterfactual_ids": [
+        "enwiki:18826947",
+        "enwiki:14369"
+      ],
+      "methods": {
+        "response_only": {
+          "top3_overlap": 0.3333333333333333,
+          "top10_overlap": 0.1,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:18826947": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:18826947": 1,
+            "enwiki:14369": 2
+          },
+          "original_top3": [
+            "enwiki:18826947"
+          ],
+          "counterfactual_top3": [
+            "enwiki:18826947",
+            "enwiki:14369",
+            "enwiki:31717"
+          ]
+        },
+        "question_anchored": {
+          "top3_overlap": 0.5,
+          "top10_overlap": 0.8181818181818182,
+          "pseudo_changed": true,
+          "original_target_ranks": {
+            "enwiki:18826947": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:18826947": 1,
+            "enwiki:14369": 3
+          },
+          "original_top3": [
+            "enwiki:18826947",
+            "enwiki:5659",
+            "enwiki:20373503"
+          ],
+          "counterfactual_top3": [
+            "enwiki:18826947",
+            "enwiki:5659",
+            "enwiki:14369"
+          ]
+        },
+        "title_filter": {
+          "top3_overlap": null,
+          "top10_overlap": null,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:18826947": null
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:18826947": null,
+            "enwiki:14369": null
+          },
+          "original_top3": [],
+          "counterfactual_top3": []
+        }
+      }
+    },
+    {
+      "case_id": "C_lastofus_two_companies",
+      "category": "C",
+      "expected_original_ids": [
+        "enwiki:1317389"
+      ],
+      "expected_counterfactual_ids": [
+        "enwiki:1317389",
+        "enwiki:563616"
+      ],
+      "methods": {
+        "response_only": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 0.5,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:1317389": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:1317389": 1,
+            "enwiki:563616": 5
+          },
+          "original_top3": [
+            "enwiki:1317389",
+            "enwiki:39746321",
+            "enwiki:4606476"
+          ],
+          "counterfactual_top3": [
+            "enwiki:1317389",
+            "enwiki:39746321",
+            "enwiki:4606476"
+          ]
+        },
+        "question_anchored": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 0.8181818181818182,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:1317389": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:1317389": 1,
+            "enwiki:563616": 6
+          },
+          "original_top3": [
+            "enwiki:1317389",
+            "enwiki:68127798",
+            "enwiki:39746321"
+          ],
+          "counterfactual_top3": [
+            "enwiki:1317389",
+            "enwiki:68127798",
+            "enwiki:39746321"
+          ]
+        },
+        "title_filter": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:1317389": null
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:1317389": null,
+            "enwiki:563616": null
+          },
+          "original_top3": [
+            "enwiki:68127798"
+          ],
+          "counterfactual_top3": [
+            "enwiki:68127798"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "D_scott_punctuation",
+      "category": "D",
+      "expected_original_ids": [
+        "enwiki:2324849"
+      ],
+      "expected_counterfactual_ids": [
+        "enwiki:2324849"
+      ],
+      "methods": {
+        "response_only": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:2324849": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:2324849": 1
+          },
+          "original_top3": [
+            "enwiki:2324849",
+            "enwiki:17574075",
+            "enwiki:13509953"
+          ],
+          "counterfactual_top3": [
+            "enwiki:2324849",
+            "enwiki:17574075",
+            "enwiki:13509953"
+          ]
+        },
+        "question_anchored": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:2324849": 2
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:2324849": 2
+          },
+          "original_top3": [
+            "enwiki:17574075",
+            "enwiki:2324849",
+            "enwiki:1339248"
+          ],
+          "counterfactual_top3": [
+            "enwiki:17574075",
+            "enwiki:2324849",
+            "enwiki:1339248"
+          ]
+        },
+        "title_filter": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:2324849": null
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:2324849": null
+          },
+          "original_top3": [
+            "enwiki:17574075"
+          ],
+          "counterfactual_top3": [
+            "enwiki:17574075"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "D_space_punctuation",
+      "category": "D",
+      "expected_original_ids": [
+        "enwiki:1045287"
+      ],
+      "expected_counterfactual_ids": [
+        "enwiki:1045287"
+      ],
+      "methods": {
+        "response_only": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:1045287": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:1045287": 1
+          },
+          "original_top3": [
+            "enwiki:1045287",
+            "enwiki:74337"
+          ],
+          "counterfactual_top3": [
+            "enwiki:1045287",
+            "enwiki:74337"
+          ]
+        },
+        "question_anchored": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:1045287": 2
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:1045287": 2
+          },
+          "original_top3": [
+            "enwiki:74337",
+            "enwiki:1045287",
+            "enwiki:44667"
+          ],
+          "counterfactual_top3": [
+            "enwiki:74337",
+            "enwiki:1045287",
+            "enwiki:44667"
+          ]
+        },
+        "title_filter": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:1045287": null
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:1045287": null
+          },
+          "original_top3": [
+            "enwiki:74337"
+          ],
+          "counterfactual_top3": [
+            "enwiki:74337"
+          ]
+        }
+      }
+    },
+    {
+      "case_id": "D_carol_punctuation",
+      "category": "D",
+      "expected_original_ids": [
+        "enwiki:5884"
+      ],
+      "expected_counterfactual_ids": [
+        "enwiki:5884"
+      ],
+      "methods": {
+        "response_only": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:5884": 1
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:5884": 1
+          },
+          "original_top3": [
+            "enwiki:5884",
+            "enwiki:73670",
+            "enwiki:161301"
+          ],
+          "counterfactual_top3": [
+            "enwiki:5884",
+            "enwiki:73670",
+            "enwiki:161301"
+          ]
+        },
+        "question_anchored": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:5884": 2
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:5884": 2
+          },
+          "original_top3": [
+            "enwiki:73670",
+            "enwiki:5884",
+            "enwiki:161301"
+          ],
+          "counterfactual_top3": [
+            "enwiki:73670",
+            "enwiki:5884",
+            "enwiki:161301"
+          ]
+        },
+        "title_filter": {
+          "top3_overlap": 1.0,
+          "top10_overlap": 1.0,
+          "pseudo_changed": false,
+          "original_target_ranks": {
+            "enwiki:5884": null
+          },
+          "counterfactual_target_ranks": {
+            "enwiki:5884": null
+          },
+          "original_top3": [
+            "enwiki:73670"
+          ],
+          "counterfactual_top3": [
+            "enwiki:73670"
+          ]
+        }
+      }
+    }
+  ]
+}

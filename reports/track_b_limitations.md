@@ -15,7 +15,8 @@ numerically to DualReform's TopiOCQA benchmark table.
 
 Eleven predeclared edits on six training conversations cannot estimate a
 population frequency. Cases were chosen for an interpretable subject and an
-available Wikipedia article, which creates coverage and selection bias. The
+available Wikipedia article. Corpus titles include their training answer and
+intervention entities, which creates coverage and selection bias. The
 original answers are benchmark responses; the changed answers are controlled
 synthetic statements. One assistant manually annotated referents and reviewed
 page identity; there is no blinded second reviewer or exhaustive passage

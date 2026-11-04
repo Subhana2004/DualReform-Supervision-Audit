@@ -22,9 +22,10 @@ lists a 13.6 GB JSONL and 12.8 GB TSV, together 26.4 GB. The author README says 
 corpus has about 25.7 million passages. We did not download or index it. No
 original passage-ID map is asserted. Our alternative is a **curated, article-level
 58-page English Wikipedia lead snapshot** fetched on 2026-11-04 from the public
-Action API. Titles were selected from benchmark question subjects and generic
-distractors before retrieval results; no answers, reference passages, or relevance
-labels constructed this corpus. Each page has a stable `enwiki:<pageid>` ID,
+Action API. Titles were selected from training-conversation topics, observed
+training answer entities, proposed substitutions, and generic distractors
+before retrieval results. No evaluation answers, gold reference passages, or
+relevance labels constructed this corpus. Each page has a stable `enwiki:<pageid>` ID,
 revision URL, revision ID and text SHA-256 in
 `data/track_b_wikipedia_leads.jsonl`. The 117,550 extracted characters occupy
 132,443 bytes in JSONL. Article text is CC BY-SA 4.0 with attribution and extraction notice
@@ -66,8 +67,8 @@ separate full rerun produced an identical `paired_rankings.jsonl` SHA-256.
 | Ranking traces / retrieval calls including repeats | 66 / 132 |
 | Selections with fewer than three hits, all methods | 33 / 66 |
 | Response-only selections with fewer than three hits | 11 / 22 |
-| BM25 in-memory build / paired retrieval measured time | 0.051 s / 0.236 s |
-| Peak traced Python allocation (not process RSS) | 1,886,619 bytes |
+| BM25 in-memory build / paired retrieval measured time | 0.014 s / 0.074 s |
+| Peak traced Python allocation (not process RSS) | 1,886,675 bytes |
 | GPU or model execution | None |
 
 The exact run-specific times, environment, corpus hash and page revisions are in

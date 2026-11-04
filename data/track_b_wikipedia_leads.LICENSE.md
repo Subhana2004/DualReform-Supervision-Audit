@@ -11,7 +11,9 @@ ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa
 The article text in this file is redistributed under those same terms. See
 [Wikipedia's reuse and attribution rules](https://en.wikipedia.org/wiki/Wikipedia:Copyrights).
 
-This small 2026 article-level snapshot was curated from benchmark question topics
-and generic distractors before retrieval outcomes were inspected. It is **not**
+This small 2026 article-level snapshot was curated from training-conversation
+topics, observed answer entities, proposed substitutions, and generic distractors
+before retrieval outcomes were inspected. No evaluation answers, gold reference
+passages, or relevance labels were used. It is **not**
 the TopiOCQA 2022 25.7-million-passage collection, is not a representative random
 sample of Wikipedia, and is not licensed under the repository's software terms.

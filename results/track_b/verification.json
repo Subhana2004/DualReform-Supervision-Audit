@@ -1,0 +1,55 @@
+{
+  "pytest": {
+    "command": [
+      "C:\\Users\\DELL\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-mission\\work\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "returncode": 0,
+    "log": "pytest.log"
+  },
+  "ruff": {
+    "command": [
+      "C:\\Users\\DELL\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-mission\\work\\.venv\\Scripts\\python.exe",
+      "-m",
+      "ruff",
+      "check",
+      "src",
+      "scripts",
+      "paper_reimplementation",
+      "tests"
+    ],
+    "returncode": 0,
+    "log": "ruff.log"
+  },
+  "compileall": {
+    "command": [
+      "C:\\Users\\DELL\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-mission\\work\\.venv\\Scripts\\python.exe",
+      "-m",
+      "compileall",
+      "-q",
+      "src",
+      "scripts",
+      "paper_reimplementation",
+      "tests"
+    ],
+    "returncode": 0,
+    "log": "compileall.log"
+  },
+  "notebook": {
+    "command": [
+      "C:\\Users\\DELL\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-mission\\work\\.venv\\Scripts\\python.exe",
+      "scripts/validate_notebook.py"
+    ],
+    "returncode": 0,
+    "log": "notebook.log"
+  },
+  "repeat_rankings": {
+    "identical": true,
+    "sha256": "b4eaaa033c7d5288a468ceac33716a62eb9dbb332414b09b1ffb575055ad0960",
+    "repeat_sha256": "b4eaaa033c7d5288a468ceac33716a62eb9dbb332414b09b1ffb575055ad0960"
+  },
+  "source_git_sha": "fc680644f29db9b9f03d9a7c90a6cc6c6e90a8bd",
+  "all_passed": true
+}
