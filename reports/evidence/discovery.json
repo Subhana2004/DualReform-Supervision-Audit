@@ -1,0 +1,632 @@
+{
+  "audit_date": "2026-11-04",
+  "official_repository_api": {
+    "message": "Not Found",
+    "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
+    "status": "404"
+  },
+  "anonymous_files": {
+    "error": "repository_expired"
+  },
+  "hf_exact_name_model_search": [],
+  "source_addition_commit": "979ae1083105579298bd3682ce8a16eae0a7b566",
+  "source_addition_date": "2025-11-27T07:51:19Z",
+  "path_filtered_history_commits": [
+    "979ae1083105579298bd3682ce8a16eae0a7b566"
+  ],
+  "fetch_records": [
+    {
+      "path": "DualReform-main/CQR/dataset_cleaning.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dataset_cleaning.py",
+      "timestamp": "2026-11-04T14:14:46.829946+00:00",
+      "status": 200,
+      "bytes": 1507,
+      "sha256": "9d4bdd7f8c20b05a1baafce35f725fcffd319a40442a16d2526cd4fd05be968b"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/build_dense_index.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/build_dense_index.py",
+      "timestamp": "2026-11-04T14:14:46.909839+00:00",
+      "status": 200,
+      "bytes": 3220,
+      "sha256": "9cff0b606a5c259beec94ca7fa5ddc646852e0473c94e72ad36decb169972db1"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/build_dense_index_multi_gpus.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/build_dense_index_multi_gpus.py",
+      "timestamp": "2026-11-04T14:14:46.837482+00:00",
+      "status": 200,
+      "bytes": 5009,
+      "sha256": "a064cfde8c1c6892bf6aa1ae4d5d00fd0fd8c45de4c8f65754eb947ef7c0e2f4"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/build_pyserini.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/build_pyserini.py",
+      "timestamp": "2026-11-04T14:14:46.932461+00:00",
+      "status": 200,
+      "bytes": 3790,
+      "sha256": "20622a6e5421fa2b00284e4d61874bf82cdc030d4a143a5836bc07b78301f540"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/build_pyserini_kisti.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/build_pyserini_kisti.py",
+      "timestamp": "2026-11-04T14:14:46.987247+00:00",
+      "status": 200,
+      "bytes": 4194,
+      "sha256": "95810f7ecea7277e525584bbd7d7cf1227ec36cf540edfd60e25f7a81b989338"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/data/base.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/data/base.py",
+      "timestamp": "2026-11-04T14:14:47.011615+00:00",
+      "status": 200,
+      "bytes": 1376,
+      "sha256": "9f478fc18c37f202141b50bafafe8c943fd68818da633dea01f8f697488fd945"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/data/mask.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/data/mask.py",
+      "timestamp": "2026-11-04T14:14:47.450076+00:00",
+      "status": 200,
+      "bytes": 6386,
+      "sha256": "bfd291ce9faacc92a81867e9325bfd662f95e53170ff33c8055a5144b9040e52"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/data/orconvqa.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/data/orconvqa.py",
+      "timestamp": "2026-11-04T14:14:47.482248+00:00",
+      "status": 200,
+      "bytes": 4938,
+      "sha256": "cad461b013edeb8517c25ca2e112bc7c299df316dba4b836eb88f968cd3dafae"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/data/qrecc.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/data/qrecc.py",
+      "timestamp": "2026-11-04T14:14:47.482248+00:00",
+      "status": 200,
+      "bytes": 5943,
+      "sha256": "f6b0a4cd0cd40ad9313b8afa5fb118d1eab079b188242f5ec04256c5f8703090"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/data/topiocqa.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/data/topiocqa.py",
+      "timestamp": "2026-11-04T14:14:47.512550+00:00",
+      "status": 200,
+      "bytes": 4601,
+      "sha256": "ea47bf1f8c124fe5d22ba4168e5e04ab9b2e951571da1ef77dd56872cb075e03"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/data_preprocessing.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/data_preprocessing.py",
+      "timestamp": "2026-11-04T14:14:47.551173+00:00",
+      "status": 200,
+      "bytes": 2154,
+      "sha256": "8907acdf4d15d8bc7b55e08eb44feeeaf3cd782a20b5a6a12ffb3db10afd591b"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/data_preprocessing.sh",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/data_preprocessing.sh",
+      "timestamp": "2026-11-04T14:14:47.551173+00:00",
+      "status": 200,
+      "bytes": 316,
+      "sha256": "6c41c064d610ee040f9e0d48ef0b7917e59e21cbb0599c91551ff72a191338ae"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/data_preprocessing_kisti.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/data_preprocessing_kisti.py",
+      "timestamp": "2026-11-04T14:14:47.918475+00:00",
+      "status": 200,
+      "bytes": 2345,
+      "sha256": "71b52f6f1f39550da3a687826ba49b7425ac7a09d5d89ad81a05df73d1d01fdc"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/data_preprocessing_kisti.sh",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/data_preprocessing_kisti.sh",
+      "timestamp": "2026-11-04T14:14:47.939849+00:00",
+      "status": 200,
+      "bytes": 459,
+      "sha256": "464bbd3bd93c07fa5be71c5b297d0044f3a6b872354f839a3ff2817125758d27"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/data_preprocessing_topiocqa.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/data_preprocessing_topiocqa.py",
+      "timestamp": "2026-11-04T14:14:47.974211+00:00",
+      "status": 200,
+      "bytes": 2355,
+      "sha256": "745b108867b9c659f754bd9fbf52f7997533a18f9ac5a9374ecee96e4a9398d0"
+    },
+    {
+      "path": "DualReform-main/CQR/db_build/data_preprocessing_topiocqa.sh",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/db_build/data_preprocessing_topiocqa.sh",
+      "timestamp": "2026-11-04T14:14:47.999670+00:00",
+      "status": 200,
+      "bytes": 482,
+      "sha256": "deb0422bc2a71a0f2714e2023895eadc1d5f5773529df88a02ba38581e26f755"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/eval_breakdown.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/eval_breakdown.py",
+      "timestamp": "2026-11-04T14:14:48.029439+00:00",
+      "status": 200,
+      "bytes": 2046,
+      "sha256": "b9821013645de51b8974058d0502f7ac21cdea3ac86e0d3d132a0b94b8dd4418"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/get_dataset.sh",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/get_dataset.sh",
+      "timestamp": "2026-11-04T14:14:48.051701+00:00",
+      "status": 200,
+      "bytes": 2293,
+      "sha256": "8a1daf7389b1f965cfd335a3daa13a500c682c8dfc76721fedbacae3a8c34b3c"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/run_dense_search.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/run_dense_search.py",
+      "timestamp": "2026-11-04T14:14:48.389869+00:00",
+      "status": 200,
+      "bytes": 7002,
+      "sha256": "7f6dc77c0ab11d48ecd13cb8ec26ac680b3fcddfc4287caad1d51e644e1d929c"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/run_dense_search.sh",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/run_dense_search.sh",
+      "timestamp": "2026-11-04T14:14:48.409301+00:00",
+      "status": 200,
+      "bytes": 367,
+      "sha256": "d0805adef2bea492787a696382e0d445217ca7cff6c12a0a221faeee33be2002"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/run_dense_search_sciconvqa.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/run_dense_search_sciconvqa.py",
+      "timestamp": "2026-11-04T14:14:48.445956+00:00",
+      "status": 200,
+      "bytes": 12275,
+      "sha256": "20fb67355fe0bb2349de4f4c78094a720afe91f980bb51776432819341cc2df2"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/run_dense_search_topiocqa.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/run_dense_search_topiocqa.py",
+      "timestamp": "2026-11-04T14:14:48.473052+00:00",
+      "status": 200,
+      "bytes": 14841,
+      "sha256": "4dfb84ac4027b0fb48e4ec8e951cc56b428d29c1172c822a4f09691b4f91ccd8"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/utils/__init__.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/utils/__init__.py",
+      "timestamp": "2026-11-04T14:14:48.508115+00:00",
+      "status": 200,
+      "bytes": 1014,
+      "sha256": "b40fec13acbd8190a22f04951a352fe3ced2b72a6b3377751447644c1fa2b841"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/utils/conv_tokenizer.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/utils/conv_tokenizer.py",
+      "timestamp": "2026-11-04T14:14:48.532642+00:00",
+      "status": 200,
+      "bytes": 6576,
+      "sha256": "3d699e5b2f12867dfa5e9d6485af33a501253b7a3f5e84fb5496f25cc88371f7"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/utils/distributed_utils.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/utils/distributed_utils.py",
+      "timestamp": "2026-11-04T14:14:48.813675+00:00",
+      "status": 200,
+      "bytes": 6061,
+      "sha256": "86c2828b5e9e6eb2c7a2d62fb596c177208e7f6f2fc7c7d25a6592b2133d09d1"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/utils/indexing_utils.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/utils/indexing_utils.py",
+      "timestamp": "2026-11-04T14:14:48.850457+00:00",
+      "status": 200,
+      "bytes": 9278,
+      "sha256": "2b819a5ecfb6e2c820e20e4699e3b207af937910b4dbd0173470f61b065fbe5c"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/utils/loss.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/utils/loss.py",
+      "timestamp": "2026-11-04T14:14:48.899894+00:00",
+      "status": 200,
+      "bytes": 2184,
+      "sha256": "017ab5a888942fc4b6810168c05d786cae5610be2f067a7adbea6b8150d226a9"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/utils/official_qrecc_eval.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/utils/official_qrecc_eval.py",
+      "timestamp": "2026-11-04T14:14:48.945752+00:00",
+      "status": 200,
+      "bytes": 2831,
+      "sha256": "8bd3e85667a2362be364648ffcfa32efb0cd3d0e915bf93256fa61073f9c1e4e"
+    },
+    {
+      "path": "DualReform-main/CQR/dense_retrieve/utils/retrieval_utils.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/dense_retrieve/utils/retrieval_utils.py",
+      "timestamp": "2026-11-04T14:14:48.973524+00:00",
+      "status": 200,
+      "bytes": 3107,
+      "sha256": "52faba561dd89204c07169ed662761165012dcffbfae28e231d754f052a4207f"
+    },
+    {
+      "path": "DualReform-main/CQR/gpt_rewrite_candidate_queries.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/gpt_rewrite_candidate_queries.py",
+      "timestamp": "2026-11-04T14:14:49.002189+00:00",
+      "status": 200,
+      "bytes": 24076,
+      "sha256": "b1aaf60b768ae7e63f15a842df713e480689634057b9328f16f3686bdaae8d01"
+    },
+    {
+      "path": "DualReform-main/CQR/preference_generation/create_pref_data_SciConvQA.ipynb",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/preference_generation/create_pref_data_SciConvQA.ipynb",
+      "timestamp": "2026-11-04T14:14:49.233724+00:00",
+      "status": 200,
+      "bytes": 62001,
+      "sha256": "03ef3d7260c7ed8132238bfc7011eb1640d51374693d0b6bb44a215e31ff046d"
+    },
+    {
+      "path": "DualReform-main/CQR/preference_generation/create_pref_data_TopiOCQA.ipynb",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/preference_generation/create_pref_data_TopiOCQA.ipynb",
+      "timestamp": "2026-11-04T14:14:49.315507+00:00",
+      "status": 200,
+      "bytes": 68610,
+      "sha256": "4c15df29123cfeb57bcac755ab1b8074a87e783bc756bc980876526cb9cdecd2"
+    },
+    {
+      "path": "DualReform-main/CQR/preference_generation/create_sft_SciConvQA.ipynb",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/preference_generation/create_sft_SciConvQA.ipynb",
+      "timestamp": "2026-11-04T14:14:49.403244+00:00",
+      "status": 200,
+      "bytes": 65563,
+      "sha256": "9213c79910ab1fe4d2fdf6d2a2c730b97424b254655035fefd276d7ff00e46b5"
+    },
+    {
+      "path": "DualReform-main/CQR/preference_generation/create_sft_TopiOCQA.ipynb",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/preference_generation/create_sft_TopiOCQA.ipynb",
+      "timestamp": "2026-11-04T14:14:49.467505+00:00",
+      "status": 200,
+      "bytes": 57133,
+      "sha256": "914b59b331268e3a609464bc603fc5d16ef9f87b5c4fab65c684bcb3314ca452"
+    },
+    {
+      "path": "DualReform-main/CQR/query_expansion_llama3.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/query_expansion_llama3.py",
+      "timestamp": "2026-11-04T14:14:49.483712+00:00",
+      "status": 200,
+      "bytes": 13562,
+      "sha256": "1b63be368ebaafb223a6eb85f05e4b014907b552c21183861e42db14ec9fdc9c"
+    },
+    {
+      "path": "DualReform-main/CQR/refine_response.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/refine_response.py",
+      "timestamp": "2026-11-04T14:14:49.571834+00:00",
+      "status": 200,
+      "bytes": 36747,
+      "sha256": "9e818a6efe60c9c51b309c7d3279dd3c25bdeecbbfd72b7093f55c583e9a27dc"
+    },
+    {
+      "path": "DualReform-main/CQR/reformulate_query.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/reformulate_query.py",
+      "timestamp": "2026-11-04T14:14:49.953734+00:00",
+      "status": 200,
+      "bytes": 37628,
+      "sha256": "b8af3fa156c198441f336db5bf719372dc78d0524754c76481c316593c1c8fee"
+    },
+    {
+      "path": "DualReform-main/CQR/reformulate_query_qrecc.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/reformulate_query_qrecc.py",
+      "timestamp": "2026-11-04T14:14:50.001587+00:00",
+      "status": 200,
+      "bytes": 46340,
+      "sha256": "9a7d5d2501c1a69393ff696856a0425c7a5dcde53e4377259cd0d0d5c37672cf"
+    },
+    {
+      "path": "DualReform-main/CQR/shared_utils/__init__.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/shared_utils/__init__.py",
+      "timestamp": "2026-11-04T14:14:50.001587+00:00",
+      "status": 200,
+      "bytes": 655,
+      "sha256": "9b0f739da45f5671c3e302b7689bf1c2793714c06252625be387ea69524d0256"
+    },
+    {
+      "path": "DualReform-main/CQR/shared_utils/distributed_utils.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/shared_utils/distributed_utils.py",
+      "timestamp": "2026-11-04T14:14:50.033702+00:00",
+      "status": 200,
+      "bytes": 6061,
+      "sha256": "86c2828b5e9e6eb2c7a2d62fb596c177208e7f6f2fc7c7d25a6592b2133d09d1"
+    },
+    {
+      "path": "DualReform-main/CQR/shared_utils/evaluate_qa.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/shared_utils/evaluate_qa.py",
+      "timestamp": "2026-11-04T14:14:50.109577+00:00",
+      "status": 200,
+      "bytes": 2164,
+      "sha256": "f8fe4c1c163004953791983fe141363566b741851f42d7f3fa473646ed672165"
+    },
+    {
+      "path": "DualReform-main/CQR/shared_utils/evaluate_retrieval.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/shared_utils/evaluate_retrieval.py",
+      "timestamp": "2026-11-04T14:14:50.171371+00:00",
+      "status": 200,
+      "bytes": 8986,
+      "sha256": "93c9efe81139557754277bd3890e80cb6412a654e23e54e56bfee290cde74646"
+    },
+    {
+      "path": "DualReform-main/CQR/shared_utils/indexing_utils.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/shared_utils/indexing_utils.py",
+      "timestamp": "2026-11-04T14:14:50.516245+00:00",
+      "status": 200,
+      "bytes": 12114,
+      "sha256": "20a40e60a8b553e311bb2de4a8313550620a0b1a39a8e1d8861997eaa04a3116"
+    },
+    {
+      "path": "DualReform-main/CQR/shared_utils/span_heuristic.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/shared_utils/span_heuristic.py",
+      "timestamp": "2026-11-04T14:14:50.563425+00:00",
+      "status": 200,
+      "bytes": 3236,
+      "sha256": "2bd51905354cd6b6b1f1a25baa6d094c63c2d4d7576ba6e590cb6f5f8a0a265b"
+    },
+    {
+      "path": "DualReform-main/CQR/sparse_retrieve/bm25/BM25_on_qrecc.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/sparse_retrieve/bm25/BM25_on_qrecc.py",
+      "timestamp": "2026-11-04T14:14:50.596536+00:00",
+      "status": 200,
+      "bytes": 5663,
+      "sha256": "500ce130c8f62fddce5a3397ced09f60774f044f194672d124a7a9de89e0e13a"
+    },
+    {
+      "path": "DualReform-main/CQR/sparse_retrieve/bm25/BM25_topi_on_qrecc.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/sparse_retrieve/bm25/BM25_topi_on_qrecc.py",
+      "timestamp": "2026-11-04T14:14:50.635222+00:00",
+      "status": 200,
+      "bytes": 6597,
+      "sha256": "ff1676c3548b91b0a6a6e11bd0004d153797f8760597c96ba40c9943cda85010"
+    },
+    {
+      "path": "DualReform-main/CQR/sparse_retrieve/bm25/bm25_on_sciconvqa.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/sparse_retrieve/bm25/bm25_on_sciconvqa.py",
+      "timestamp": "2026-11-04T14:14:50.642617+00:00",
+      "status": 200,
+      "bytes": 16459,
+      "sha256": "2c2670db0866f075208ce23ccfc2e292bcd5e9fab9dfa81c46d46488c070f304"
+    },
+    {
+      "path": "DualReform-main/CQR/sparse_retrieve/bm25/bm25_on_topiocqa.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/sparse_retrieve/bm25/bm25_on_topiocqa.py",
+      "timestamp": "2026-11-04T14:14:50.705860+00:00",
+      "status": 200,
+      "bytes": 15908,
+      "sha256": "c03f6caa3f33a0a15245068a41267d8c0886b189838d1cdc04645ef12559938e"
+    },
+    {
+      "path": "DualReform-main/CQR/sparse_retrieve/bm25/convert_to_pyserini_file.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/sparse_retrieve/bm25/convert_to_pyserini_file.py",
+      "timestamp": "2026-11-04T14:14:50.968814+00:00",
+      "status": 200,
+      "bytes": 1338,
+      "sha256": "60cc8cc51aab0b620edbdc49db270de90cb4af353c99b8871151c254fd206f90"
+    },
+    {
+      "path": "DualReform-main/CQR/sparse_retrieve/bm25/create_index.sh",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/sparse_retrieve/bm25/create_index.sh",
+      "timestamp": "2026-11-04T14:14:51.016783+00:00",
+      "status": 200,
+      "bytes": 472,
+      "sha256": "79b3dffeb76a7bf4651740ebde3549b85a4ffc79ddb47016b5a27755c217e9b2"
+    },
+    {
+      "path": "DualReform-main/CQR/sparse_retrieve/data/preprocess_topiocqa.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/sparse_retrieve/data/preprocess_topiocqa.py",
+      "timestamp": "2026-11-04T14:14:51.049993+00:00",
+      "status": 200,
+      "bytes": 11621,
+      "sha256": "d3770dd1598a2f508ee0ae9f6e061a09ad62881087b146bd0a43bcb6c5bb37da"
+    },
+    {
+      "path": "DualReform-main/CQR/sparse_retrieve/data_structure.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/sparse_retrieve/data_structure.py",
+      "timestamp": "2026-11-04T14:14:51.093630+00:00",
+      "status": 200,
+      "bytes": 39454,
+      "sha256": "57595090c054940c45213181800e248fb7b154e9bf025cfbac3aee508ff0c06b"
+    },
+    {
+      "path": "DualReform-main/CQR/sparse_retrieve/src/models.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/sparse_retrieve/src/models.py",
+      "timestamp": "2026-11-04T14:14:51.137147+00:00",
+      "status": 200,
+      "bytes": 3029,
+      "sha256": "7ac6ff3e9bbca6f5e2e6d6f576bb346a609fc6b9ed2a2e8a72061d2017bf6e88"
+    },
+    {
+      "path": "DualReform-main/CQR/sparse_retrieve/utils.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/CQR/sparse_retrieve/utils.py",
+      "timestamp": "2026-11-04T14:14:51.200669+00:00",
+      "status": 200,
+      "bytes": 22852,
+      "sha256": "0373ab4a7a4e70dcb28c0d23f7260179dd1aa3793c30846d618cc6efb4fbf67b"
+    },
+    {
+      "path": "DualReform-main/LICENSE",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/LICENSE",
+      "timestamp": "2026-11-04T14:14:51.389249+00:00",
+      "status": 200,
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/DATA_LICENSE",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/DATA_LICENSE",
+      "timestamp": "2026-11-04T14:14:51.440987+00:00",
+      "status": 200,
+      "bytes": 19346,
+      "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/dpo_llama3_accelerate.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/dpo_llama3_accelerate.py",
+      "timestamp": "2026-11-04T14:14:51.519211+00:00",
+      "status": 200,
+      "bytes": 15132,
+      "sha256": "4cfb917d7b20848884b9fd857fbeb287528955c5b4ad2084cbbfc0165648b169"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/generation_eval.ipynb",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/generation_eval.ipynb",
+      "timestamp": "2026-11-04T14:14:51.547475+00:00",
+      "status": 200,
+      "bytes": 24449,
+      "sha256": "c28085b0ab91054129a20975f62925cee89d50730cd8faa1daf93a4c222fdb9c"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/llama_attn_replace.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/llama_attn_replace.py",
+      "timestamp": "2026-11-04T14:14:51.596845+00:00",
+      "status": 200,
+      "bytes": 19549,
+      "sha256": "5645ffd7b2c85c64fbd5be745a8b58320dfe00d52020fac87d87a79c2a9e851f"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/llama_attn_replace_sft.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/llama_attn_replace_sft.py",
+      "timestamp": "2026-11-04T14:14:51.688833+00:00",
+      "status": 200,
+      "bytes": 19677,
+      "sha256": "e35bede13a294fb99437756a246d14e56fb73b6ec4efcbdeb513b880865a88eb"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/merge_llama3_lora.ipynb",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/merge_llama3_lora.ipynb",
+      "timestamp": "2026-11-04T14:14:51.655082+00:00",
+      "status": 200,
+      "bytes": 14316,
+      "sha256": "8f5236b31d50c2612fa45bfb8bebea36a8b243f3e93e534b3bbfae1fff938d1d"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/metrics/__init__.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/metrics/__init__.py",
+      "timestamp": "2026-11-04T14:14:51.911526+00:00",
+      "status": 200,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/metrics/answer_support_recall.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/metrics/answer_support_recall.py",
+      "timestamp": "2026-11-04T14:14:52.051986+00:00",
+      "status": 200,
+      "bytes": 2443,
+      "sha256": "7eda4a09f381e06a8046018f40a9c7bfe6a5b6bf9bfa750f7adaeee3a7c44981"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/metrics/drop_answer_em_f1.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/metrics/drop_answer_em_f1.py",
+      "timestamp": "2026-11-04T14:14:52.053319+00:00",
+      "status": 200,
+      "bytes": 3152,
+      "sha256": "56d5fe81e99779af5fb8ff56e6758f3f53b531bf38c3516b9051be583b92d2d7"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/metrics/drop_eval.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/metrics/drop_eval.py",
+      "timestamp": "2026-11-04T14:14:52.125026+00:00",
+      "status": 200,
+      "bytes": 12176,
+      "sha256": "5f78e9c5a902a4d065794c81b1d57775b61531b593ed6bb34200992b8fc48888"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/metrics/metric.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/metrics/metric.py",
+      "timestamp": "2026-11-04T14:14:52.168354+00:00",
+      "status": 200,
+      "bytes": 653,
+      "sha256": "335866d123ac21416acdd1e5109ba02c1a3edcd1c8a0dd41e05f41427faa5e17"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/metrics/squad_answer_em_f1.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/metrics/squad_answer_em_f1.py",
+      "timestamp": "2026-11-04T14:14:52.199093+00:00",
+      "status": 200,
+      "bytes": 3510,
+      "sha256": "64b714fd3512de8bc0e00b61449106e68544453cc54c39660b79011649a4b92f"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/metrics/support_em_f1.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/metrics/support_em_f1.py",
+      "timestamp": "2026-11-04T14:14:52.352957+00:00",
+      "status": 200,
+      "bytes": 7672,
+      "sha256": "8ef898722b1c474f298ca2b7828a2b394455bfe5cf936d7c163e8d542b19daf6"
+    },
+    {
+      "path": "DualReform-main/PreferenceOptimization/supervised-fine-tune-qlora_llama3.py",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/PreferenceOptimization/supervised-fine-tune-qlora_llama3.py",
+      "timestamp": "2026-11-04T14:14:52.516209+00:00",
+      "status": 200,
+      "bytes": 7974,
+      "sha256": "db39fcd1b43855d7b06bd5d0acc504d4067a63911f45c089e46eb83dfa4de9ef"
+    },
+    {
+      "path": "DualReform-main/README.md",
+      "url": "https://raw.githubusercontent.com/dlwnsdn0285/kisti-rag/979ae1083105579298bd3682ce8a16eae0a7b566/DualReform-main/README.md",
+      "timestamp": "2026-11-04T14:14:52.554247+00:00",
+      "status": 200,
+      "bytes": 6382,
+      "sha256": "51ab06aab875c757e2c2aebfa2ef4788c3063ab3b9b8820554cd11756458f681"
+    },
+    {
+      "path": "anonymous.html",
+      "url": "https://anonymous.4open.science/r/DualReform",
+      "timestamp": "2026-11-04T14:14:52.617008+00:00",
+      "status": 200,
+      "bytes": 15726,
+      "sha256": "8065d8247e6889afc31fc595b925a6d27e697efb4298920b1dab00457e637f1d"
+    },
+    {
+      "path": "openreview.json",
+      "url": "https://api2.openreview.net/notes?id=QPRQHxrFLQ",
+      "timestamp": "2026-11-04T14:14:52.662692+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "qrecc-meta.json",
+      "url": "https://api.github.com/repos/apple/ml-qrecc",
+      "timestamp": "2026-11-04T14:14:52.727012+00:00",
+      "status": 200,
+      "bytes": 6935,
+      "sha256": "08522aec90377eded0def4c1fa205d805bb2a9bf1ed74b88d72937208e33d098"
+    },
+    {
+      "path": "topiocqa-meta.json",
+      "url": "https://api.github.com/repos/McGill-NLP/topiocqa",
+      "timestamp": "2026-11-04T14:14:52.782234+00:00",
+      "status": 200,
+      "bytes": 6445,
+      "sha256": "3b0ab81c41b50809c2f0011276c165e736b4086a0002d7f153ce9cebf4be072f"
+    },
+    {
+      "path": "dm-publications.html",
+      "url": "https://dmlab.kaist.ac.kr/publications",
+      "timestamp": "2026-11-04T14:14:52.847246+00:00",
+      "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>"
+    },
+    {
+      "path": "arxiv.html",
+      "url": "https://arxiv.org/html/2505.06552",
+      "timestamp": "2026-11-04T14:14:52.977785+00:00",
+      "status": 200,
+      "bytes": 662113,
+      "sha256": "4371a717ce77c372261116a10ae0ad60d640f1077b61ff30aeb3756ba80a7e50"
+    },
+    {
+      "path": "hf-search.json",
+      "url": "https://huggingface.co/api/models?search=DualReform",
+      "timestamp": "2026-11-04T14:14:53.195112+00:00",
+      "status": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "omitted_evidence": "Full source, paper, repository/author metadata and benchmark text remain in ignored local storage."
+}

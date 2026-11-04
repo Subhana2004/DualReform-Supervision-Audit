@@ -1,0 +1,58 @@
+{
+  "timestamp_utc": "2026-11-04T14:46:34.859203+00:00",
+  "git_sha": "78127bf7c637fc8c6d35514134bfff632bf1236a",
+  "checks": [
+    {
+      "name": "pytest",
+      "command": [
+        "C:\\Users\\DELL\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-mission\\work\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "returncode": 0,
+      "log": "results\\verification\\pytest.log"
+    },
+    {
+      "name": "ruff",
+      "command": [
+        "C:\\Users\\DELL\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-mission\\work\\.venv\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "src",
+        "scripts",
+        "paper_reimplementation",
+        "tests"
+      ],
+      "returncode": 0,
+      "log": "results\\verification\\ruff.log"
+    },
+    {
+      "name": "compile",
+      "command": [
+        "C:\\Users\\DELL\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-mission\\work\\.venv\\Scripts\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "src",
+        "scripts",
+        "paper_reimplementation"
+      ],
+      "returncode": 0,
+      "log": "results\\verification\\compile.log"
+    },
+    {
+      "name": "notebook_cpu_setup",
+      "command": [
+        "C:\\Users\\DELL\\Documents\\Codex\\2026-11-04\\files-pasted-by-the-user-mission\\work\\.venv\\Scripts\\python.exe",
+        "scripts/validate_notebook.py",
+        "--execute-cpu"
+      ],
+      "returncode": 0,
+      "log": "results\\verification\\notebook_cpu_setup.log"
+    }
+  ],
+  "all_passed": true,
+  "scope": "engineering verification; no GPU or model accuracy claim"
+}

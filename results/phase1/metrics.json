@@ -1,0 +1,75 @@
+{
+  "experiment_type": "real_data_integrity",
+  "retrieval_metrics": null,
+  "model_executed": false,
+  "datasets": {
+    "topiocqa/train": {
+      "raw_turns": 45450,
+      "raw_conversations": 3509,
+      "turns": 45450,
+      "conversations": 3509,
+      "unanswerable_responses": 3652,
+      "context_mismatches": 0,
+      "raw_odd_length_contexts": 0,
+      "excluded_conversation_count": 0,
+      "excluded_turn_count": 0,
+      "empty_response_count": 0
+    },
+    "topiocqa/dev": {
+      "raw_turns": 2514,
+      "raw_conversations": 205,
+      "turns": 2514,
+      "conversations": 205,
+      "unanswerable_responses": 174,
+      "context_mismatches": 0,
+      "raw_odd_length_contexts": 0,
+      "excluded_conversation_count": 0,
+      "excluded_turn_count": 0,
+      "empty_response_count": 0
+    },
+    "topiocqa/boundaries": {
+      "train_turns": 45331,
+      "validation_turns": 119,
+      "evaluation_turns": 2514,
+      "conversation_overlap": 0,
+      "duplicate_session_text_overlap": 0,
+      "validation_source": "training only"
+    },
+    "qrecc/train": {
+      "raw_turns": 63501,
+      "raw_conversations": 10823,
+      "turns": 56971,
+      "conversations": 9798,
+      "unanswerable_responses": 0,
+      "context_mismatches": 43622,
+      "raw_odd_length_contexts": 6940,
+      "excluded_conversation_count": 1025,
+      "excluded_turn_count": 6530,
+      "empty_response_count": 5555
+    },
+    "qrecc/test": {
+      "raw_turns": 16451,
+      "raw_conversations": 2775,
+      "turns": 14872,
+      "conversations": 2527,
+      "unanswerable_responses": 0,
+      "context_mismatches": 11442,
+      "raw_odd_length_contexts": 1799,
+      "excluded_conversation_count": 248,
+      "excluded_turn_count": 1579,
+      "empty_response_count": 1427
+    },
+    "qrecc/boundaries": {
+      "train_turns": 56911,
+      "validation_turns": 60,
+      "evaluation_turns": 14872,
+      "conversation_overlap": 0,
+      "duplicate_session_text_overlap": 0,
+      "validation_source": "training only"
+    }
+  },
+  "sample_turns": 457,
+  "seed": 42,
+  "sample_conversations_per_split": 8,
+  "runtime_seconds": 11.488495800000237
+}
