@@ -1,0 +1,17 @@
+{
+  "reviewer": "independent assistant annotation; single reviewer, not benchmark gold",
+  "review_method": "Read the benchmark question, observed answer, follow-up, and the Wikipedia lead for each nominated referent before retrieval output was inspected. Article identity is the relevance criterion; other pages may also carry useful evidence.",
+  "cases": {
+    "A_scott_actor": {"original_targets":["Scott Pilgrim vs. the World"],"counterfactual_targets":["Scott Pilgrim vs. the World"],"rationale":"The next question says 'this' work after a question explicitly naming the film. Changing the claimed performer does not change the film."},
+    "A_space_developer": {"original_targets":["Space Invaders"],"counterfactual_targets":["Space Invaders"],"rationale":"The next question asks whether the game has sequels. Changing its claimed developer does not change the game."},
+    "A_carol_author": {"original_targets":["A Christmas Carol"],"counterfactual_targets":["A Christmas Carol"],"rationale":"The next question asks when the previously named novel was published. Changing the claimed author does not change the novel."},
+    "A_blade_director": {"original_targets":["Blade Runner 2049"],"counterfactual_targets":["Blade Runner 2049"],"rationale":"The next question asks for the producer of the previously named film. Changing the claimed director does not change the film."},
+    "B_yttrium_person": {"original_targets":["Carl Axel Arrhenius"],"counterfactual_targets":["Humphry Davy"],"rationale":"The next question asks where 'he' was born. Replacing the sole named man changes the conversational referent."},
+    "B_lastofus_company": {"original_targets":["Naughty Dog"],"counterfactual_targets":["Ubisoft"],"rationale":"The next question asks when 'this' developer was established. Replacing the sole named company changes the referent."},
+    "C_yttrium_two_people": {"original_targets":["Carl Axel Arrhenius"],"counterfactual_targets":["Carl Axel Arrhenius","Humphry Davy"],"rationale":"With two named men in the reply, 'he' has two plausible antecedents. No unique target is asserted."},
+    "C_lastofus_two_companies": {"original_targets":["Naughty Dog"],"counterfactual_targets":["Naughty Dog","Ubisoft"],"rationale":"With two named companies in the reply, 'this' is ambiguous. No unique target is asserted."},
+    "D_scott_punctuation": {"original_targets":["Mary Elizabeth Winstead"],"counterfactual_targets":["Mary Elizabeth Winstead"],"rationale":"A terminal period changes no words or entity."},
+    "D_space_punctuation": {"original_targets":["Tomohiro Nishikado"],"counterfactual_targets":["Tomohiro Nishikado"],"rationale":"A terminal exclamation mark changes no words or entity."},
+    "D_carol_punctuation": {"original_targets":["Charles Dickens"],"counterfactual_targets":["Charles Dickens"],"rationale":"A terminal period changes no words or entity."}
+  }
+}
