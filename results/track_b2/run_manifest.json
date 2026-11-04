@@ -1,0 +1,47 @@
+{
+  "status": "executed",
+  "started_utc": "2026-11-04T22:17:49.736538+00:00",
+  "git_sha": "23fcfe627c938e8aeb68e5721d17241bd769befb",
+  "config_sha256": "589a578c89206bb19c5591209ca67e510f120ffa5f54d83ff85d2660dd51bc86",
+  "preregistered_pairs_sha256": "09386853e0b217ce75fda58aad2fa27c93c982830d84c739631c3bb2423165ef",
+  "supplementary_cases_sha256": "f1f3326ac79b8427647f94c3cba4ca58a376d5fe46ad673a996c97ac978ee814",
+  "corpus_manifest_sha256": "9daff9191f838d916fe47637771c35d8db5e9613eb6675d985843acf50de3995",
+  "index_sha256": "381ab36b35ad771af85399bac9cd341ab0a62ba549ae2c0acab9a76630939110",
+  "rankings_sha256": "8a0632c32799bd1e0d677597a0520328263b206094d4c392a2677ba7fee95f8f",
+  "comparisons_sha256": "e756a8cd7700397a97df39000a6bc5b857c270e20983f997b9d1e35e742e90c7",
+  "source_type": "independent paper-derived diagnostic",
+  "official_baseline_reproduced": false,
+  "gpu_execution": "NOT EXECUTED",
+  "retrieval_engine": {
+    "engine": "SQLite FTS5 BM25, disk backed, unicode61 tokenizer",
+    "bm25_k1": 1.2,
+    "bm25_b": 0.75,
+    "title_weight": 1.0,
+    "text_weight": 1.0,
+    "top_k": 100,
+    "pseudo_k": 3,
+    "query_tokenizer": "Unicode word regex with fixed English function-word removal",
+    "methods": [
+      "response_only",
+      "question_anchored",
+      "question_only"
+    ]
+  },
+  "environment": {
+    "python": "3.10.11",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "torch": null,
+      "transformers": null,
+      "pyserini": null,
+      "pytrec-eval": null,
+      "pytest": "8.4.2",
+      "ruff": "0.12.12"
+    },
+    "nvidia_smi_found": false,
+    "cuda": null,
+    "cuda_note": "Not probed through PyTorch when not installed"
+  },
+  "platform": "Windows-10-10.0.26200-SP0",
+  "runtime_seconds": 1517.9545696999994
+}

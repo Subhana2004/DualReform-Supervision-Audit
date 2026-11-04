@@ -1,0 +1,383 @@
+{
+  "scope": "four historically selected cases, one known relevant article each",
+  "independent_reviewers": 0,
+  "comprehensive_qrels": false,
+  "detail": [
+    {
+      "case_id": "A_scott_actor",
+      "method": "response_only",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:259081",
+      "known_article_rank_top100": 3,
+      "known_article_in_top3": true,
+      "positive_score_hits": 4682,
+      "selected_titles": [
+        "Mary Elizabeth Winstead",
+        "Huntress (Helena Bertinelli)",
+        "Scott Pilgrim vs. the World"
+      ]
+    },
+    {
+      "case_id": "A_scott_actor",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:259081",
+      "known_article_rank_top100": null,
+      "known_article_in_top3": false,
+      "positive_score_hits": 176,
+      "selected_titles": [
+        "Scarlett Johansson",
+        "Marriage Story",
+        "Vicky Cristina Barcelona"
+      ]
+    },
+    {
+      "case_id": "A_scott_actor",
+      "method": "question_anchored",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:259081",
+      "known_article_rank_top100": 1,
+      "known_article_in_top3": true,
+      "positive_score_hits": 43358,
+      "selected_titles": [
+        "Scott Pilgrim vs. the World",
+        "Mary Elizabeth Winstead",
+        "Huntress (Helena Bertinelli)"
+      ]
+    },
+    {
+      "case_id": "A_scott_actor",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:259081",
+      "known_article_rank_top100": 1,
+      "known_article_in_top3": true,
+      "positive_score_hits": 40586,
+      "selected_titles": [
+        "Scott Pilgrim vs. the World",
+        "The Horse Whisperer",
+        "Brad Allan"
+      ]
+    },
+    {
+      "case_id": "A_scott_actor",
+      "method": "question_only",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:259081",
+      "known_article_rank_top100": 1,
+      "known_article_in_top3": true,
+      "positive_score_hits": 40493,
+      "selected_titles": [
+        "Scott Pilgrim vs. the World",
+        "Brad Allan",
+        "Kieran Culkin"
+      ]
+    },
+    {
+      "case_id": "A_scott_actor",
+      "method": "question_only",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:259081",
+      "known_article_rank_top100": 1,
+      "known_article_in_top3": true,
+      "positive_score_hits": 40493,
+      "selected_titles": [
+        "Scott Pilgrim vs. the World",
+        "Brad Allan",
+        "Kieran Culkin"
+      ]
+    },
+    {
+      "case_id": "A_space_developer",
+      "method": "response_only",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:99204",
+      "known_article_rank_top100": 1,
+      "known_article_in_top3": true,
+      "positive_score_hits": 16,
+      "selected_titles": [
+        "Space Invaders",
+        "Tomohiro Tsuda",
+        "Tomohiro Wanami"
+      ]
+    },
+    {
+      "case_id": "A_space_developer",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:99204",
+      "known_article_rank_top100": null,
+      "known_article_in_top3": false,
+      "positive_score_hits": 142,
+      "selected_titles": [
+        "Shigeru Miyamoto gameography",
+        "Super Mario 128",
+        "Donkey Kong (series)"
+      ]
+    },
+    {
+      "case_id": "A_space_developer",
+      "method": "question_anchored",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:99204",
+      "known_article_rank_top100": 1,
+      "known_article_in_top3": true,
+      "positive_score_hits": 17845,
+      "selected_titles": [
+        "Space Invaders",
+        "Taito",
+        "Arianespace"
+      ]
+    },
+    {
+      "case_id": "A_space_developer",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:99204",
+      "known_article_rank_top100": 7,
+      "known_article_in_top3": false,
+      "positive_score_hits": 17926,
+      "selected_titles": [
+        "Super Mario 128",
+        "Shigeru Miyamoto gameography",
+        "Yu Suzuki"
+      ]
+    },
+    {
+      "case_id": "A_space_developer",
+      "method": "question_only",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:99204",
+      "known_article_rank_top100": 1,
+      "known_article_in_top3": true,
+      "positive_score_hits": 17832,
+      "selected_titles": [
+        "Space Invaders",
+        "Taito",
+        "Arianespace"
+      ]
+    },
+    {
+      "case_id": "A_space_developer",
+      "method": "question_only",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:99204",
+      "known_article_rank_top100": 1,
+      "known_article_in_top3": true,
+      "positive_score_hits": 17832,
+      "selected_titles": [
+        "Space Invaders",
+        "Taito",
+        "Arianespace"
+      ]
+    },
+    {
+      "case_id": "A_carol_author",
+      "method": "response_only",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:20261",
+      "known_article_rank_top100": 45,
+      "known_article_in_top3": false,
+      "positive_score_hits": 5075,
+      "selected_titles": [
+        "Charles Dickens",
+        "Bleak House",
+        "Nicholas Nickleby"
+      ]
+    },
+    {
+      "case_id": "A_carol_author",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:20261",
+      "known_article_rank_top100": null,
+      "known_article_in_top3": false,
+      "positive_score_hits": 1247,
+      "selected_titles": [
+        "Janeite",
+        "Cassandra Austen",
+        "Jane Austen"
+      ]
+    },
+    {
+      "case_id": "A_carol_author",
+      "method": "question_anchored",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:20261",
+      "known_article_rank_top100": 4,
+      "known_article_in_top3": false,
+      "positive_score_hits": 12565,
+      "selected_titles": [
+        "Ebenezer Scrooge",
+        "A Christmas Carol (2009 movie)",
+        "The Muppet Christmas Carol"
+      ]
+    },
+    {
+      "case_id": "A_carol_author",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:20261",
+      "known_article_rank_top100": 8,
+      "known_article_in_top3": false,
+      "positive_score_hits": 9340,
+      "selected_titles": [
+        "Jane Austen",
+        "Sense and Sensibility (movie)",
+        "Reception history of Jane Austen"
+      ]
+    },
+    {
+      "case_id": "A_carol_author",
+      "method": "question_only",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:20261",
+      "known_article_rank_top100": 2,
+      "known_article_in_top3": true,
+      "positive_score_hits": 8402,
+      "selected_titles": [
+        "Ebenezer Scrooge",
+        "A Christmas Carol",
+        "Carol Shields"
+      ]
+    },
+    {
+      "case_id": "A_carol_author",
+      "method": "question_only",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:20261",
+      "known_article_rank_top100": 2,
+      "known_article_in_top3": true,
+      "positive_score_hits": 8402,
+      "selected_titles": [
+        "Ebenezer Scrooge",
+        "A Christmas Carol",
+        "Carol Shields"
+      ]
+    },
+    {
+      "case_id": "A_blade_director",
+      "method": "response_only",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:600373",
+      "known_article_rank_top100": 6,
+      "known_article_in_top3": false,
+      "positive_score_hits": 741,
+      "selected_titles": [
+        "Villeneuve-Saint-Denis",
+        "Prisoners (2013 movie)",
+        "Denis Villeneuve"
+      ]
+    },
+    {
+      "case_id": "A_blade_director",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:600373",
+      "known_article_rank_top100": null,
+      "known_article_in_top3": false,
+      "positive_score_hits": 2256,
+      "selected_titles": [
+        "Scott Free Productions",
+        "Someone to Watch Over Me",
+        "Legend (movie)"
+      ]
+    },
+    {
+      "case_id": "A_blade_director",
+      "method": "question_anchored",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:600373",
+      "known_article_rank_top100": 2,
+      "known_article_in_top3": true,
+      "positive_score_hits": 55683,
+      "selected_titles": [
+        "Denis Villeneuve",
+        "Blade Runner 2049",
+        "Roger Deakins"
+      ]
+    },
+    {
+      "case_id": "A_blade_director",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:600373",
+      "known_article_rank_top100": 6,
+      "known_article_in_top3": false,
+      "positive_score_hits": 56081,
+      "selected_titles": [
+        "Blade Runner",
+        "Ridley Scott",
+        "Morgan Paull"
+      ]
+    },
+    {
+      "case_id": "A_blade_director",
+      "method": "question_only",
+      "arm": "original",
+      "known_relevant_article_id": "simplewiki:600373",
+      "known_article_rank_top100": 2,
+      "known_article_in_top3": true,
+      "positive_score_hits": 55189,
+      "selected_titles": [
+        "Blade Runner",
+        "Blade Runner 2049",
+        "Joanna Cassidy"
+      ]
+    },
+    {
+      "case_id": "A_blade_director",
+      "method": "question_only",
+      "arm": "counterfactual",
+      "known_relevant_article_id": "simplewiki:600373",
+      "known_article_rank_top100": 2,
+      "known_article_in_top3": true,
+      "positive_score_hits": 55189,
+      "selected_titles": [
+        "Blade Runner",
+        "Blade Runner 2049",
+        "Joanna Cassidy"
+      ]
+    }
+  ],
+  "known_article_top3_by_method_arm": [
+    {
+      "method": "response_only",
+      "arm": "original",
+      "count": 2,
+      "denominator": 4
+    },
+    {
+      "method": "response_only",
+      "arm": "counterfactual",
+      "count": 0,
+      "denominator": 4
+    },
+    {
+      "method": "question_anchored",
+      "arm": "original",
+      "count": 3,
+      "denominator": 4
+    },
+    {
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "count": 1,
+      "denominator": 4
+    },
+    {
+      "method": "question_only",
+      "arm": "original",
+      "count": 4,
+      "denominator": 4
+    },
+    {
+      "method": "question_only",
+      "arm": "counterfactual",
+      "count": 4,
+      "denominator": 4
+    }
+  ],
+  "response_only_known_article_top3_original": 2,
+  "response_only_known_article_top3_counterfactual": 0
+}

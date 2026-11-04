@@ -1,0 +1,13 @@
+{
+  "status": "executed",
+  "started_utc": "2026-11-04T22:46:50.157412+00:00",
+  "corpus_sha256": "31bded16768a47c286becd292079122f5d7d4397a17b87d4250a00ccd581e6f0",
+  "index_sha256": "4b28d8ca0ae3c545671dfce1533970b65e522f069a131ee683746a89afa803a3",
+  "index_size_bytes": 478650368,
+  "document_count": 241787,
+  "tokenizer": "porter unicode61",
+  "rankings_sha256": "07a29788aebdb9e4110be7b70305e372bc5304f4923e85d756975518bf37a81a",
+  "runtime_seconds": 288.7681870000015,
+  "index_committed": false,
+  "gpu_execution": "NOT EXECUTED"
+}
