@@ -1,0 +1,193 @@
+{
+  "status": "retrieval_executed_qrels_pending_independent_review",
+  "official_baseline_reproduced": false,
+  "complete_corpus_documents": 241787,
+  "independent_sampled_conversations": 30,
+  "sampled_pairs": 60,
+  "supplementary_probes": 6,
+  "retrieval_records": 876,
+  "comparisons": 438,
+  "incomplete_top3_records": 6,
+  "change_counts": [
+    {
+      "category": "A",
+      "method": "question_anchored",
+      "corpus_documents": 10000,
+      "top3_changed": false,
+      "count": 10
+    },
+    {
+      "category": "A",
+      "method": "question_anchored",
+      "corpus_documents": 10000,
+      "top3_changed": true,
+      "count": 20
+    },
+    {
+      "category": "A",
+      "method": "question_anchored",
+      "corpus_documents": 50000,
+      "top3_changed": false,
+      "count": 4
+    },
+    {
+      "category": "A",
+      "method": "question_anchored",
+      "corpus_documents": 50000,
+      "top3_changed": true,
+      "count": 26
+    },
+    {
+      "category": "A",
+      "method": "question_anchored",
+      "corpus_documents": 241787,
+      "top3_changed": false,
+      "count": 6
+    },
+    {
+      "category": "A",
+      "method": "question_anchored",
+      "corpus_documents": 241787,
+      "top3_changed": true,
+      "count": 24
+    },
+    {
+      "category": "A",
+      "method": "question_only",
+      "corpus_documents": 241787,
+      "top3_changed": false,
+      "count": 30
+    },
+    {
+      "category": "A",
+      "method": "response_only",
+      "corpus_documents": 10000,
+      "top3_changed": true,
+      "count": 30
+    },
+    {
+      "category": "A",
+      "method": "response_only",
+      "corpus_documents": 50000,
+      "top3_changed": true,
+      "count": 30
+    },
+    {
+      "category": "A",
+      "method": "response_only",
+      "corpus_documents": 241787,
+      "top3_changed": true,
+      "count": 30
+    },
+    {
+      "category": "B",
+      "method": "question_anchored",
+      "corpus_documents": 241787,
+      "top3_changed": true,
+      "count": 4
+    },
+    {
+      "category": "B",
+      "method": "question_only",
+      "corpus_documents": 241787,
+      "top3_changed": true,
+      "count": 4
+    },
+    {
+      "category": "B",
+      "method": "response_only",
+      "corpus_documents": 241787,
+      "top3_changed": true,
+      "count": 4
+    },
+    {
+      "category": "C",
+      "method": "question_anchored",
+      "corpus_documents": 241787,
+      "top3_changed": false,
+      "count": 1
+    },
+    {
+      "category": "C",
+      "method": "question_anchored",
+      "corpus_documents": 241787,
+      "top3_changed": true,
+      "count": 1
+    },
+    {
+      "category": "C",
+      "method": "question_only",
+      "corpus_documents": 241787,
+      "top3_changed": false,
+      "count": 1
+    },
+    {
+      "category": "C",
+      "method": "question_only",
+      "corpus_documents": 241787,
+      "top3_changed": true,
+      "count": 1
+    },
+    {
+      "category": "C",
+      "method": "response_only",
+      "corpus_documents": 241787,
+      "top3_changed": false,
+      "count": 2
+    },
+    {
+      "category": "D",
+      "method": "question_anchored",
+      "corpus_documents": 10000,
+      "top3_changed": false,
+      "count": 30
+    },
+    {
+      "category": "D",
+      "method": "question_anchored",
+      "corpus_documents": 50000,
+      "top3_changed": false,
+      "count": 30
+    },
+    {
+      "category": "D",
+      "method": "question_anchored",
+      "corpus_documents": 241787,
+      "top3_changed": false,
+      "count": 30
+    },
+    {
+      "category": "D",
+      "method": "question_only",
+      "corpus_documents": 241787,
+      "top3_changed": false,
+      "count": 30
+    },
+    {
+      "category": "D",
+      "method": "response_only",
+      "corpus_documents": 10000,
+      "top3_changed": false,
+      "count": 30
+    },
+    {
+      "category": "D",
+      "method": "response_only",
+      "corpus_documents": 50000,
+      "top3_changed": false,
+      "count": 30
+    },
+    {
+      "category": "D",
+      "method": "response_only",
+      "corpus_documents": 241787,
+      "top3_changed": false,
+      "count": 30
+    }
+  ],
+  "relevance_recall_at_k": null,
+  "pseudo_reference_support_quality": null,
+  "harmful_factual_changes": null,
+  "reason_unscored": "No independent blinded passage qrels or fact verification",
+  "retrieval_seconds": 1517.9545696999994
+}

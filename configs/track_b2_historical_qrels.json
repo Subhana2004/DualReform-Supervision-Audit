@@ -1,0 +1,32 @@
+{
+  "scope": "single-agent known relevant article checks for four historical cases; not exhaustive passage qrels",
+  "independent_reviewer_count": 0,
+  "ranking_blind": false,
+  "use_for_preregistered_sample_metrics": false,
+  "cases": {
+    "A_scott_actor": {
+      "current_information_need": "actor portraying Ramona Flowers in Scott Pilgrim vs. the World",
+      "known_relevant_article_id": "simplewiki:259081",
+      "evidence": "Article cast section maps Mary Elizabeth Winstead to Ramona Flowers.",
+      "source_url": "https://simple.wikipedia.org/wiki/Scott_Pilgrim_vs._the_World"
+    },
+    "A_space_developer": {
+      "current_information_need": "creator or developer of the Space Invaders video game",
+      "known_relevant_article_id": "simplewiki:99204",
+      "evidence": "Article attributes game design to Nishikado; its given-name spelling differs from the benchmark answer.",
+      "source_url": "https://simple.wikipedia.org/wiki/Space_Invaders"
+    },
+    "A_carol_author": {
+      "current_information_need": "author of A Christmas Carol",
+      "known_relevant_article_id": "simplewiki:20261",
+      "evidence": "Article identifies Charles Dickens as the writer.",
+      "source_url": "https://simple.wikipedia.org/wiki/A_Christmas_Carol"
+    },
+    "A_blade_director": {
+      "current_information_need": "director of Blade Runner 2049",
+      "known_relevant_article_id": "simplewiki:600373",
+      "evidence": "Article identifies Denis Villeneuve as director.",
+      "source_url": "https://simple.wikipedia.org/wiki/Blade_Runner_2049"
+    }
+  }
+}

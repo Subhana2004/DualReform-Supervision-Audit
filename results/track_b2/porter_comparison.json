@@ -1,0 +1,2192 @@
+{
+  "status": "exploratory_post_preregistration_analyzer_sensitivity",
+  "same_corpus_documents": 241787,
+  "same_sqlite_bm25_k1": 1.2,
+  "same_sqlite_bm25_b": 0.75,
+  "analyzers": [
+    "unicode61",
+    "porter unicode61"
+  ],
+  "sampled_independent_conversations": 30,
+  "historical_cases": 4,
+  "records": 136,
+  "top3_set_differs_between_analyzers": 56,
+  "detail": [
+    {
+      "case_id": "A_001",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:591682",
+        "simplewiki:425603",
+        "simplewiki:212306"
+      ],
+      "porter_top3": [
+        "simplewiki:591682",
+        "simplewiki:425603",
+        "simplewiki:212306"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_001",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "porter_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_001",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:425535",
+        "simplewiki:965179",
+        "simplewiki:278446"
+      ],
+      "porter_top3": [
+        "simplewiki:425535",
+        "simplewiki:965179",
+        "simplewiki:278446"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_001",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:965179",
+        "simplewiki:425535",
+        "simplewiki:129371"
+      ],
+      "porter_top3": [
+        "simplewiki:965179",
+        "simplewiki:425535",
+        "simplewiki:48900"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_002",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:116882",
+        "simplewiki:179413",
+        "simplewiki:126105"
+      ],
+      "porter_top3": [
+        "simplewiki:116882",
+        "simplewiki:179413",
+        "simplewiki:126105"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_002",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "porter_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_002",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:980388",
+        "simplewiki:810710",
+        "simplewiki:1003747"
+      ],
+      "porter_top3": [
+        "simplewiki:1003747",
+        "simplewiki:810710",
+        "simplewiki:76039"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_002",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:810710",
+        "simplewiki:1003747",
+        "simplewiki:1029959"
+      ],
+      "porter_top3": [
+        "simplewiki:1003747",
+        "simplewiki:810710",
+        "simplewiki:699629"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_003",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:471194",
+        "simplewiki:408664",
+        "simplewiki:25215"
+      ],
+      "porter_top3": [
+        "simplewiki:471194",
+        "simplewiki:408664",
+        "simplewiki:25215"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_003",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "porter_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_003",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:53876",
+        "simplewiki:1018800",
+        "simplewiki:778340"
+      ],
+      "porter_top3": [
+        "simplewiki:805452",
+        "simplewiki:1043154",
+        "simplewiki:3942"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_003",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:166750",
+        "simplewiki:53876",
+        "simplewiki:70876"
+      ],
+      "porter_top3": [
+        "simplewiki:805452",
+        "simplewiki:47196",
+        "simplewiki:1043154"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_004",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:573533",
+        "simplewiki:991290",
+        "simplewiki:920262"
+      ],
+      "porter_top3": [
+        "simplewiki:991290",
+        "simplewiki:573533",
+        "simplewiki:920262"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_004",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "porter_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_004",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:286550",
+        "simplewiki:655651",
+        "simplewiki:612627"
+      ],
+      "porter_top3": [
+        "simplewiki:286550",
+        "simplewiki:655651",
+        "simplewiki:759098"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_004",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:286550",
+        "simplewiki:10512",
+        "simplewiki:462547"
+      ],
+      "porter_top3": [
+        "simplewiki:286550",
+        "simplewiki:10512",
+        "simplewiki:912782"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_005",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:301188",
+        "simplewiki:519703",
+        "simplewiki:803248"
+      ],
+      "porter_top3": [
+        "simplewiki:301188",
+        "simplewiki:519703",
+        "simplewiki:785136"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_005",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "porter_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_005",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:301188",
+        "simplewiki:131232",
+        "simplewiki:301194"
+      ],
+      "porter_top3": [
+        "simplewiki:301188",
+        "simplewiki:131232",
+        "simplewiki:301194"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_005",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:301188",
+        "simplewiki:131232",
+        "simplewiki:301194"
+      ],
+      "porter_top3": [
+        "simplewiki:131232",
+        "simplewiki:301188",
+        "simplewiki:301194"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_006",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:13951",
+        "simplewiki:663718",
+        "simplewiki:259293"
+      ],
+      "porter_top3": [
+        "simplewiki:797216",
+        "simplewiki:766173",
+        "simplewiki:680279"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_006",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "porter_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_006",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:710585",
+        "simplewiki:793695",
+        "simplewiki:700819"
+      ],
+      "porter_top3": [
+        "simplewiki:710585",
+        "simplewiki:700819",
+        "simplewiki:69503"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_006",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:508810",
+        "simplewiki:69503",
+        "simplewiki:700819"
+      ],
+      "porter_top3": [
+        "simplewiki:117704",
+        "simplewiki:508810",
+        "simplewiki:710585"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_007",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:503924",
+        "simplewiki:460490",
+        "simplewiki:351010"
+      ],
+      "porter_top3": [
+        "simplewiki:503924",
+        "simplewiki:460490",
+        "simplewiki:351010"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_007",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "porter_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_007",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:6011",
+        "simplewiki:19827",
+        "simplewiki:503924"
+      ],
+      "porter_top3": [
+        "simplewiki:19827",
+        "simplewiki:328688",
+        "simplewiki:503015"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_007",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:6011",
+        "simplewiki:19827",
+        "simplewiki:5123"
+      ],
+      "porter_top3": [
+        "simplewiki:19827",
+        "simplewiki:328688",
+        "simplewiki:503015"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_008",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:573533",
+        "simplewiki:991290",
+        "simplewiki:920262"
+      ],
+      "porter_top3": [
+        "simplewiki:991290",
+        "simplewiki:573533",
+        "simplewiki:920262"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_008",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "porter_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_008",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:110413",
+        "simplewiki:8459",
+        "simplewiki:28898"
+      ],
+      "porter_top3": [
+        "simplewiki:8459",
+        "simplewiki:110413",
+        "simplewiki:28898"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_008",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:110413",
+        "simplewiki:28898",
+        "simplewiki:29022"
+      ],
+      "porter_top3": [
+        "simplewiki:110413",
+        "simplewiki:28898",
+        "simplewiki:29022"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_009",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:916331",
+        "simplewiki:352963",
+        "simplewiki:803664"
+      ],
+      "porter_top3": [
+        "simplewiki:916331",
+        "simplewiki:352963",
+        "simplewiki:803664"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_009",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "porter_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_009",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:191572",
+        "simplewiki:602810",
+        "simplewiki:6371"
+      ],
+      "porter_top3": [
+        "simplewiki:602810",
+        "simplewiki:191572",
+        "simplewiki:7405"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_009",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:146077",
+        "simplewiki:191572",
+        "simplewiki:602810"
+      ],
+      "porter_top3": [
+        "simplewiki:602810",
+        "simplewiki:191572",
+        "simplewiki:7405"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_010",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:447324",
+        "simplewiki:775546",
+        "simplewiki:461073"
+      ],
+      "porter_top3": [
+        "simplewiki:447324",
+        "simplewiki:775546",
+        "simplewiki:461073"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_010",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "porter_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_010",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:346073",
+        "simplewiki:799054",
+        "simplewiki:7385"
+      ],
+      "porter_top3": [
+        "simplewiki:346073",
+        "simplewiki:799054",
+        "simplewiki:7385"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_010",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:7385",
+        "simplewiki:717047",
+        "simplewiki:53677"
+      ],
+      "porter_top3": [
+        "simplewiki:7385",
+        "simplewiki:84294",
+        "simplewiki:219830"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_011",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:646532",
+        "simplewiki:402397",
+        "simplewiki:975944"
+      ],
+      "porter_top3": [
+        "simplewiki:646532",
+        "simplewiki:402397",
+        "simplewiki:975944"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_011",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "porter_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_011",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:783646",
+        "simplewiki:994883",
+        "simplewiki:600251"
+      ],
+      "porter_top3": [
+        "simplewiki:783646",
+        "simplewiki:600251",
+        "simplewiki:68843"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_011",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:783646",
+        "simplewiki:994883",
+        "simplewiki:600251"
+      ],
+      "porter_top3": [
+        "simplewiki:783646",
+        "simplewiki:600251",
+        "simplewiki:68843"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_012",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:354289",
+        "simplewiki:618270",
+        "simplewiki:407933"
+      ],
+      "porter_top3": [
+        "simplewiki:354289",
+        "simplewiki:618270",
+        "simplewiki:407933"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_012",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "porter_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_012",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:372727",
+        "simplewiki:354289",
+        "simplewiki:377304"
+      ],
+      "porter_top3": [
+        "simplewiki:372727",
+        "simplewiki:354289",
+        "simplewiki:377304"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_012",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:372727",
+        "simplewiki:377304",
+        "simplewiki:379571"
+      ],
+      "porter_top3": [
+        "simplewiki:372727",
+        "simplewiki:377304",
+        "simplewiki:379571"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_013",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:691018",
+        "simplewiki:5310",
+        "simplewiki:760670"
+      ],
+      "porter_top3": [
+        "simplewiki:691018",
+        "simplewiki:5310",
+        "simplewiki:760670"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_013",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "porter_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_013",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:5310",
+        "simplewiki:298964",
+        "simplewiki:273263"
+      ],
+      "porter_top3": [
+        "simplewiki:273263",
+        "simplewiki:5310",
+        "simplewiki:842135"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_013",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:298964",
+        "simplewiki:273263",
+        "simplewiki:975481"
+      ],
+      "porter_top3": [
+        "simplewiki:273263",
+        "simplewiki:842135",
+        "simplewiki:298964"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_014",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:659490",
+        "simplewiki:762903",
+        "simplewiki:402939"
+      ],
+      "porter_top3": [
+        "simplewiki:659490",
+        "simplewiki:762903",
+        "simplewiki:402939"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_014",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "porter_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_014",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:800398",
+        "simplewiki:800397",
+        "simplewiki:799976"
+      ],
+      "porter_top3": [
+        "simplewiki:800398",
+        "simplewiki:800397",
+        "simplewiki:799976"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_014",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:76879",
+        "simplewiki:372697",
+        "simplewiki:70876"
+      ],
+      "porter_top3": [
+        "simplewiki:76879",
+        "simplewiki:372697",
+        "simplewiki:720184"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_015",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:361462",
+        "simplewiki:141378",
+        "simplewiki:508354"
+      ],
+      "porter_top3": [
+        "simplewiki:361462",
+        "simplewiki:141378",
+        "simplewiki:755122"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_015",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "porter_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_015",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:361462",
+        "simplewiki:312512",
+        "simplewiki:16006"
+      ],
+      "porter_top3": [
+        "simplewiki:361462",
+        "simplewiki:307451",
+        "simplewiki:312512"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_015",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:312512",
+        "simplewiki:361462",
+        "simplewiki:452185"
+      ],
+      "porter_top3": [
+        "simplewiki:307451",
+        "simplewiki:312512",
+        "simplewiki:361462"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_016",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:129559",
+        "simplewiki:758139",
+        "simplewiki:747774"
+      ],
+      "porter_top3": [
+        "simplewiki:129559",
+        "simplewiki:758139",
+        "simplewiki:747774"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_016",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "porter_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_016",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:698029",
+        "simplewiki:199627",
+        "simplewiki:219637"
+      ],
+      "porter_top3": [
+        "simplewiki:698029",
+        "simplewiki:879279",
+        "simplewiki:352084"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_016",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:698029",
+        "simplewiki:219637",
+        "simplewiki:467238"
+      ],
+      "porter_top3": [
+        "simplewiki:698029",
+        "simplewiki:352084",
+        "simplewiki:1030476"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_017",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:730887",
+        "simplewiki:467752",
+        "simplewiki:804816"
+      ],
+      "porter_top3": [
+        "simplewiki:730887",
+        "simplewiki:686920",
+        "simplewiki:467752"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_017",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "porter_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_017",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:730887",
+        "simplewiki:333343",
+        "simplewiki:752814"
+      ],
+      "porter_top3": [
+        "simplewiki:47048",
+        "simplewiki:730887",
+        "simplewiki:727946"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_017",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:534428",
+        "simplewiki:446271",
+        "simplewiki:409197"
+      ],
+      "porter_top3": [
+        "simplewiki:534428",
+        "simplewiki:446271",
+        "simplewiki:674315"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_018",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:213802",
+        "simplewiki:980029",
+        "simplewiki:720609"
+      ],
+      "porter_top3": [
+        "simplewiki:213802",
+        "simplewiki:980029",
+        "simplewiki:720609"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_018",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "porter_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_018",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:4362",
+        "simplewiki:4058",
+        "simplewiki:247"
+      ],
+      "porter_top3": [
+        "simplewiki:247",
+        "simplewiki:4362",
+        "simplewiki:4668"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_018",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:4362",
+        "simplewiki:4058",
+        "simplewiki:247"
+      ],
+      "porter_top3": [
+        "simplewiki:247",
+        "simplewiki:4362",
+        "simplewiki:4668"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_019",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:348948",
+        "simplewiki:348949",
+        "simplewiki:324016"
+      ],
+      "porter_top3": [
+        "simplewiki:348948",
+        "simplewiki:348949",
+        "simplewiki:324016"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_019",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "porter_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_019",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:348949",
+        "simplewiki:348948",
+        "simplewiki:793570"
+      ],
+      "porter_top3": [
+        "simplewiki:348949",
+        "simplewiki:348948",
+        "simplewiki:383802"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_019",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:70876",
+        "simplewiki:720184",
+        "simplewiki:76879"
+      ],
+      "porter_top3": [
+        "simplewiki:70876",
+        "simplewiki:720184",
+        "simplewiki:978077"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_020",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:38324",
+        "simplewiki:611075",
+        "simplewiki:312154"
+      ],
+      "porter_top3": [
+        "simplewiki:38324",
+        "simplewiki:611075",
+        "simplewiki:312154"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_020",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "porter_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_020",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:809886",
+        "simplewiki:38324",
+        "simplewiki:464619"
+      ],
+      "porter_top3": [
+        "simplewiki:809886",
+        "simplewiki:856441",
+        "simplewiki:110832"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_020",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:267787",
+        "simplewiki:464619",
+        "simplewiki:809886"
+      ],
+      "porter_top3": [
+        "simplewiki:267787",
+        "simplewiki:856441",
+        "simplewiki:110832"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_021",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:427569",
+        "simplewiki:341119",
+        "simplewiki:819826"
+      ],
+      "porter_top3": [
+        "simplewiki:427569",
+        "simplewiki:819826",
+        "simplewiki:341119"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_021",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "porter_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_021",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:427569",
+        "simplewiki:819826",
+        "simplewiki:447801"
+      ],
+      "porter_top3": [
+        "simplewiki:427569",
+        "simplewiki:819826",
+        "simplewiki:341119"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_021",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "porter_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_022",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:718344",
+        "simplewiki:54278",
+        "simplewiki:982247"
+      ],
+      "porter_top3": [
+        "simplewiki:718344",
+        "simplewiki:54278",
+        "simplewiki:982247"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_022",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "porter_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_022",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:54278",
+        "simplewiki:17913",
+        "simplewiki:102115"
+      ],
+      "porter_top3": [
+        "simplewiki:54278",
+        "simplewiki:293564",
+        "simplewiki:102680"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_022",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:534428",
+        "simplewiki:448222",
+        "simplewiki:288716"
+      ],
+      "porter_top3": [
+        "simplewiki:534428",
+        "simplewiki:448222",
+        "simplewiki:288716"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_023",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:305015",
+        "simplewiki:614523",
+        "simplewiki:530027"
+      ],
+      "porter_top3": [
+        "simplewiki:530027",
+        "simplewiki:305015",
+        "simplewiki:406875"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_023",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "porter_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_023",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:621926",
+        "simplewiki:206724",
+        "simplewiki:790619"
+      ],
+      "porter_top3": [
+        "simplewiki:621926",
+        "simplewiki:319101",
+        "simplewiki:19226"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_023",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:166750",
+        "simplewiki:76879",
+        "simplewiki:621926"
+      ],
+      "porter_top3": [
+        "simplewiki:621926",
+        "simplewiki:19226",
+        "simplewiki:166750"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_024",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:941827",
+        "simplewiki:412587",
+        "simplewiki:912274"
+      ],
+      "porter_top3": [
+        "simplewiki:941827",
+        "simplewiki:412587",
+        "simplewiki:912274"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_024",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "porter_top3": [
+        "simplewiki:76879",
+        "simplewiki:166750",
+        "simplewiki:70876"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_024",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:73148",
+        "simplewiki:14187",
+        "simplewiki:824105"
+      ],
+      "porter_top3": [
+        "simplewiki:73148",
+        "simplewiki:14187",
+        "simplewiki:69074"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_024",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:73148",
+        "simplewiki:14187",
+        "simplewiki:824105"
+      ],
+      "porter_top3": [
+        "simplewiki:73148",
+        "simplewiki:14187",
+        "simplewiki:69074"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_025",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:49881",
+        "simplewiki:702904",
+        "simplewiki:498259"
+      ],
+      "porter_top3": [
+        "simplewiki:49881",
+        "simplewiki:702904",
+        "simplewiki:498259"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_025",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "porter_top3": [
+        "simplewiki:534428",
+        "simplewiki:912992",
+        "simplewiki:107077"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_025",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:49881",
+        "simplewiki:498259",
+        "simplewiki:702904"
+      ],
+      "porter_top3": [
+        "simplewiki:49881",
+        "simplewiki:498259",
+        "simplewiki:702904"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_025",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:534428",
+        "simplewiki:288716",
+        "simplewiki:912992"
+      ],
+      "porter_top3": [
+        "simplewiki:674315",
+        "simplewiki:534428",
+        "simplewiki:446271"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_026",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:509406",
+        "simplewiki:424116",
+        "simplewiki:449332"
+      ],
+      "porter_top3": [
+        "simplewiki:509406",
+        "simplewiki:424116",
+        "simplewiki:449332"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_026",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "porter_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_026",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:475610",
+        "simplewiki:475616",
+        "simplewiki:330350"
+      ],
+      "porter_top3": [
+        "simplewiki:234124",
+        "simplewiki:458114",
+        "simplewiki:475610"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_026",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:475610",
+        "simplewiki:192000",
+        "simplewiki:17703"
+      ],
+      "porter_top3": [
+        "simplewiki:234124",
+        "simplewiki:458114",
+        "simplewiki:475610"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_027",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:1032828",
+        "simplewiki:1028641",
+        "simplewiki:771249"
+      ],
+      "porter_top3": [
+        "simplewiki:1032828",
+        "simplewiki:1028641",
+        "simplewiki:771249"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_027",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "porter_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_027",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:762780",
+        "simplewiki:771003",
+        "simplewiki:706600"
+      ],
+      "porter_top3": [
+        "simplewiki:1038580",
+        "simplewiki:771003",
+        "simplewiki:302303"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_027",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:762780",
+        "simplewiki:771003",
+        "simplewiki:706600"
+      ],
+      "porter_top3": [
+        "simplewiki:1038580",
+        "simplewiki:771003",
+        "simplewiki:302303"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_028",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:992512",
+        "simplewiki:269680",
+        "simplewiki:847428"
+      ],
+      "porter_top3": [
+        "simplewiki:992512",
+        "simplewiki:269680",
+        "simplewiki:847428"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_028",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "porter_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_028",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:116841",
+        "simplewiki:506314",
+        "simplewiki:410281"
+      ],
+      "porter_top3": [
+        "simplewiki:116841",
+        "simplewiki:506314",
+        "simplewiki:410281"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_028",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:116841",
+        "simplewiki:506314",
+        "simplewiki:410281"
+      ],
+      "porter_top3": [
+        "simplewiki:116841",
+        "simplewiki:506314",
+        "simplewiki:410281"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_029",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:37",
+        "simplewiki:107841",
+        "simplewiki:981810"
+      ],
+      "porter_top3": [
+        "simplewiki:944500",
+        "simplewiki:107841",
+        "simplewiki:324019"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_029",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "porter_top3": [
+        "simplewiki:48900",
+        "simplewiki:5123",
+        "simplewiki:295408"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_029",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:18653",
+        "simplewiki:817848",
+        "simplewiki:107841"
+      ],
+      "porter_top3": [
+        "simplewiki:4951",
+        "simplewiki:397169",
+        "simplewiki:545014"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_029",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:976512",
+        "simplewiki:48900",
+        "simplewiki:136258"
+      ],
+      "porter_top3": [
+        "simplewiki:295408",
+        "simplewiki:976512",
+        "simplewiki:48900"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_030",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:655937",
+        "simplewiki:657881",
+        "simplewiki:656552"
+      ],
+      "porter_top3": [
+        "simplewiki:655937",
+        "simplewiki:657881",
+        "simplewiki:656552"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_030",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "porter_top3": [
+        "simplewiki:43244",
+        "simplewiki:430735",
+        "simplewiki:406935"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_030",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:655937",
+        "simplewiki:657881",
+        "simplewiki:656552"
+      ],
+      "porter_top3": [
+        "simplewiki:655937",
+        "simplewiki:656552",
+        "simplewiki:657881"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_030",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:655937",
+        "simplewiki:664995",
+        "simplewiki:657881"
+      ],
+      "porter_top3": [
+        "simplewiki:656552",
+        "simplewiki:664995",
+        "simplewiki:664996"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_scott_actor",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:334768",
+        "simplewiki:678157",
+        "simplewiki:259081"
+      ],
+      "porter_top3": [
+        "simplewiki:334768",
+        "simplewiki:678157",
+        "simplewiki:259081"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_scott_actor",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:112160",
+        "simplewiki:805516",
+        "simplewiki:385622"
+      ],
+      "porter_top3": [
+        "simplewiki:112160",
+        "simplewiki:805516",
+        "simplewiki:385622"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_scott_actor",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:259081",
+        "simplewiki:334768",
+        "simplewiki:678157"
+      ],
+      "porter_top3": [
+        "simplewiki:259081",
+        "simplewiki:334768",
+        "simplewiki:678157"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_scott_actor",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:259081",
+        "simplewiki:941603",
+        "simplewiki:861772"
+      ],
+      "porter_top3": [
+        "simplewiki:259081",
+        "simplewiki:941603",
+        "simplewiki:861772"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_space_developer",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:99204",
+        "simplewiki:241679",
+        "simplewiki:208599"
+      ],
+      "porter_top3": [
+        "simplewiki:99204",
+        "simplewiki:241679",
+        "simplewiki:208599"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_space_developer",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:715881",
+        "simplewiki:523523",
+        "simplewiki:117358"
+      ],
+      "porter_top3": [
+        "simplewiki:715881",
+        "simplewiki:523523",
+        "simplewiki:117358"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_space_developer",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:99204",
+        "simplewiki:99200",
+        "simplewiki:850697"
+      ],
+      "porter_top3": [
+        "simplewiki:99204",
+        "simplewiki:99200",
+        "simplewiki:101444"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_space_developer",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:523523",
+        "simplewiki:715881",
+        "simplewiki:67640"
+      ],
+      "porter_top3": [
+        "simplewiki:523523",
+        "simplewiki:715881",
+        "simplewiki:33102"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_carol_author",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:5137",
+        "simplewiki:652744",
+        "simplewiki:858182"
+      ],
+      "porter_top3": [
+        "simplewiki:5137",
+        "simplewiki:652744",
+        "simplewiki:858182"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_carol_author",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:241979",
+        "simplewiki:237049",
+        "simplewiki:5133"
+      ],
+      "porter_top3": [
+        "simplewiki:241979",
+        "simplewiki:237049",
+        "simplewiki:5133"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_carol_author",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:760210",
+        "simplewiki:398748",
+        "simplewiki:374956"
+      ],
+      "porter_top3": [
+        "simplewiki:760210",
+        "simplewiki:982400",
+        "simplewiki:20261"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_carol_author",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:5133",
+        "simplewiki:374693",
+        "simplewiki:236906"
+      ],
+      "porter_top3": [
+        "simplewiki:760210",
+        "simplewiki:5133",
+        "simplewiki:236906"
+      ],
+      "top3_set_changed_by_analyzer": true
+    },
+    {
+      "case_id": "A_blade_director",
+      "method": "response_only",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:1037644",
+        "simplewiki:844032",
+        "simplewiki:729131"
+      ],
+      "porter_top3": [
+        "simplewiki:1037644",
+        "simplewiki:844032",
+        "simplewiki:729131"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_blade_director",
+      "method": "response_only",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:196521",
+        "simplewiki:904949",
+        "simplewiki:833870"
+      ],
+      "porter_top3": [
+        "simplewiki:196521",
+        "simplewiki:904949",
+        "simplewiki:833870"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_blade_director",
+      "method": "question_anchored",
+      "arm": "original",
+      "unicode61_top3": [
+        "simplewiki:729131",
+        "simplewiki:600373",
+        "simplewiki:729129"
+      ],
+      "porter_top3": [
+        "simplewiki:600373",
+        "simplewiki:729131",
+        "simplewiki:729129"
+      ],
+      "top3_set_changed_by_analyzer": false
+    },
+    {
+      "case_id": "A_blade_director",
+      "method": "question_anchored",
+      "arm": "counterfactual",
+      "unicode61_top3": [
+        "simplewiki:36948",
+        "simplewiki:36950",
+        "simplewiki:358946"
+      ],
+      "porter_top3": [
+        "simplewiki:36948",
+        "simplewiki:36950",
+        "simplewiki:904949"
+      ],
+      "top3_set_changed_by_analyzer": true
+    }
+  ]
+}

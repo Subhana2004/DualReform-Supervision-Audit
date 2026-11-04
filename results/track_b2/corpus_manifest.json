@@ -1,0 +1,60 @@
+{
+  "status": "indexed",
+  "timestamp_utc": "2026-11-04T19:48:22.086950+00:00",
+  "source_url": "https://huggingface.co/datasets/wikimedia/wikipedia/resolve/3e1f92c331f318af862b87e2319ed5dc26d80f5d/20231101.simple/train-00000-of-00001.parquet",
+  "source_revision": "3e1f92c331f318af862b87e2319ed5dc26d80f5d",
+  "source_size_bytes": 156885218,
+  "source_sha256": "31bded16768a47c286becd292079122f5d7d4397a17b87d4250a00ccd581e6f0",
+  "source_rows": 241787,
+  "indexed_rows": 241787,
+  "skipped_empty_rows": 0,
+  "indexed_utf8_text_bytes": 269034242,
+  "prefix_document_counts": {
+    "10000": 10000,
+    "50000": 50000,
+    "241787": 241787
+  },
+  "index_size_bytes": 696393728,
+  "index_sha256": "381ab36b35ad771af85399bac9cd341ab0a62ba549ae2c0acab9a76630939110",
+  "document_id_rule": "simplewiki:<Parquet id>; all nonempty rows",
+  "sample_ids": [
+    {
+      "doc_id": "simplewiki:1",
+      "url": "https://simple.wikipedia.org/wiki/April",
+      "title": "April"
+    },
+    {
+      "doc_id": "simplewiki:2",
+      "url": "https://simple.wikipedia.org/wiki/August",
+      "title": "August"
+    },
+    {
+      "doc_id": "simplewiki:6",
+      "url": "https://simple.wikipedia.org/wiki/Art",
+      "title": "Art"
+    },
+    {
+      "doc_id": "simplewiki:8",
+      "url": "https://simple.wikipedia.org/wiki/A",
+      "title": "A"
+    },
+    {
+      "doc_id": "simplewiki:9",
+      "url": "https://simple.wikipedia.org/wiki/Air",
+      "title": "Air"
+    }
+  ],
+  "schema": "FTS5(doc_id UNINDEXED,title,body) with unicode61; title/body weights 1",
+  "bm25_k1": 1.2,
+  "bm25_b": 0.75,
+  "source_software": {
+    "python_sqlite": "3.40.1",
+    "pyarrow": "17.0.0"
+  },
+  "config_sha256": "589a578c89206bb19c5591209ca67e510f120ffa5f54d83ff85d2660dd51bc86",
+  "build_seconds": 243.01514950000274,
+  "integrity_check": "ok",
+  "license": "CC BY-SA 3.0 / GFDL per Wikimedia dataset card; article URLs provide attribution",
+  "index_local_path": "work\\track_b2\\simplewiki_fts5.sqlite",
+  "index_committed": false
+}

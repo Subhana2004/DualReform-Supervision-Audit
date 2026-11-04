@@ -1,0 +1,14 @@
+{
+  "status": "single-auditor pre-output semantic screening; no independent factual review",
+  "scope": "30 syntactically selected A cases; all retained for intention-to-treat lexical analysis",
+  "flagged_case_ids": {
+    "A_002": "Original response is an organization (Universal Music Group), not a person-name answer.",
+    "A_006": "Original response is an organization (Pixar Animation Studios), not a person-name answer.",
+    "A_023": "Current question asks for plural novel characters, while the original response names one fictional character and the edit names a real scientist.",
+    "A_028": "Original response is a company (Rockstar North), not a person-name answer.",
+    "A_029": "Original response is a group (Native Americans), not a person-name answer."
+  },
+  "unflagged_count": 25,
+  "unflagged_claims_independently_verified": false,
+  "rankings_used_for_screening": false
+}

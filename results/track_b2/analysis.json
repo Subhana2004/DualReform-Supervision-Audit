@@ -1,0 +1,355 @@
+{
+  "scope": "lexical ranking diagnostics, not factual support or relevance",
+  "full_corpus_documents": 241787,
+  "group_table": [
+    {
+      "category": "A",
+      "method": "question_anchored",
+      "corpus_documents": 10000,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 20,
+      "top3_set_changed": 18,
+      "top3_order_only_changed": 2,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 0.6666666666666666,
+        "bootstrap_95_percent": [
+          0.5,
+          0.8333333333333334
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "A",
+      "method": "question_anchored",
+      "corpus_documents": 50000,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 26,
+      "top3_set_changed": 25,
+      "top3_order_only_changed": 1,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 0.8666666666666667,
+        "bootstrap_95_percent": [
+          0.7333333333333333,
+          0.9666666666666667
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "A",
+      "method": "question_anchored",
+      "corpus_documents": 241787,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 24,
+      "top3_set_changed": 24,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 0.8,
+        "bootstrap_95_percent": [
+          0.6666666666666666,
+          0.9333333333333333
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "A",
+      "method": "question_only",
+      "corpus_documents": 241787,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 0,
+      "top3_set_changed": 0,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 0.0,
+        "bootstrap_95_percent": [
+          0.0,
+          0.0
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "A",
+      "method": "response_only",
+      "corpus_documents": 10000,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 30,
+      "top3_set_changed": 30,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 1.0,
+        "bootstrap_95_percent": [
+          1.0,
+          1.0
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "A",
+      "method": "response_only",
+      "corpus_documents": 50000,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 30,
+      "top3_set_changed": 30,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 1.0,
+        "bootstrap_95_percent": [
+          1.0,
+          1.0
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "A",
+      "method": "response_only",
+      "corpus_documents": 241787,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 30,
+      "top3_set_changed": 30,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 1.0,
+        "bootstrap_95_percent": [
+          1.0,
+          1.0
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "B",
+      "method": "question_anchored",
+      "corpus_documents": 241787,
+      "pairs": 4,
+      "independent_conversations": 4,
+      "top3_changed": 4,
+      "top3_set_changed": 4,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": null
+    },
+    {
+      "category": "B",
+      "method": "question_only",
+      "corpus_documents": 241787,
+      "pairs": 4,
+      "independent_conversations": 4,
+      "top3_changed": 4,
+      "top3_set_changed": 4,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": null
+    },
+    {
+      "category": "B",
+      "method": "response_only",
+      "corpus_documents": 241787,
+      "pairs": 4,
+      "independent_conversations": 4,
+      "top3_changed": 4,
+      "top3_set_changed": 4,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": null
+    },
+    {
+      "category": "C",
+      "method": "question_anchored",
+      "corpus_documents": 241787,
+      "pairs": 2,
+      "independent_conversations": 2,
+      "top3_changed": 1,
+      "top3_set_changed": 1,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": null
+    },
+    {
+      "category": "C",
+      "method": "question_only",
+      "corpus_documents": 241787,
+      "pairs": 2,
+      "independent_conversations": 2,
+      "top3_changed": 1,
+      "top3_set_changed": 1,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": null
+    },
+    {
+      "category": "C",
+      "method": "response_only",
+      "corpus_documents": 241787,
+      "pairs": 2,
+      "independent_conversations": 2,
+      "top3_changed": 0,
+      "top3_set_changed": 0,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": null
+    },
+    {
+      "category": "D",
+      "method": "question_anchored",
+      "corpus_documents": 10000,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 0,
+      "top3_set_changed": 0,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 0.0,
+        "bootstrap_95_percent": [
+          0.0,
+          0.0
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "D",
+      "method": "question_anchored",
+      "corpus_documents": 50000,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 0,
+      "top3_set_changed": 0,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 0.0,
+        "bootstrap_95_percent": [
+          0.0,
+          0.0
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "D",
+      "method": "question_anchored",
+      "corpus_documents": 241787,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 0,
+      "top3_set_changed": 0,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 0.0,
+        "bootstrap_95_percent": [
+          0.0,
+          0.0
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "D",
+      "method": "question_only",
+      "corpus_documents": 241787,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 0,
+      "top3_set_changed": 0,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 0.0,
+        "bootstrap_95_percent": [
+          0.0,
+          0.0
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "D",
+      "method": "response_only",
+      "corpus_documents": 10000,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 0,
+      "top3_set_changed": 1,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 0.0,
+        "bootstrap_95_percent": [
+          0.0,
+          0.0
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "D",
+      "method": "response_only",
+      "corpus_documents": 50000,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 0,
+      "top3_set_changed": 1,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 0.0,
+        "bootstrap_95_percent": [
+          0.0,
+          0.0
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    },
+    {
+      "category": "D",
+      "method": "response_only",
+      "corpus_documents": 241787,
+      "pairs": 30,
+      "independent_conversations": 30,
+      "top3_changed": 0,
+      "top3_set_changed": 0,
+      "top3_order_only_changed": 0,
+      "change_rate_cluster_bootstrap": {
+        "estimate": 0.0,
+        "bootstrap_95_percent": [
+          0.0,
+          0.0
+        ],
+        "unit": "independent conversation",
+        "replicates": 10000
+      }
+    }
+  ],
+  "A_response_only_minus_question_anchored_change_rate": {
+    "estimate": 0.2,
+    "bootstrap_95_percent": [
+      0.06666666666666667,
+      0.3333333333333333
+    ],
+    "unit": "independent conversation",
+    "replicates": 10000
+  },
+  "full_corpus_positive_hit_count_min": 7,
+  "full_corpus_positive_hit_count_median": 30804.0,
+  "full_corpus_positive_hit_count_max": 177865,
+  "full_corpus_records_with_adjacent_equal_score_top3": 0,
+  "full_corpus_records_with_adjacent_equal_score_top100": 200,
+  "full_corpus_records_with_exact_score_tie_at_3_4_boundary": 0,
+  "known_relevant_article_recall_at_3": null,
+  "sample_relevance_qrels_available": false
+}
