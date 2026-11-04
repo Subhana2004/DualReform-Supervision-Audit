@@ -1,0 +1,49 @@
+{
+  "stage": "data_integrity_only",
+  "seed": 42,
+  "sample_conversations": 8,
+  "validation_conversations": 8,
+  "allow_paid_api": false,
+  "data_lock": "configs/data_sources.json",
+  "raw_data_dir": "data/raw",
+  "processed_dir": "data/processed",
+  "source": {
+    "classification": "unverified_third_party_copy",
+    "repository": "dlwnsdn0285/kisti-rag",
+    "commit": "979ae1083105579298bd3682ce8a16eae0a7b566",
+    "official_source_status": "unavailable: HTTP 404"
+  },
+  "paper_settings": {
+    "pseudo_references": 3,
+    "iterations": 3,
+    "bm25": {
+      "topiocqa": {
+        "k1": 0.9,
+        "b": 0.4
+      },
+      "qrecc": {
+        "k1": 0.82,
+        "b": 0.68
+      }
+    },
+    "top_k": 100,
+    "dense_max_length": 384,
+    "sft_learning_rate": 2e-05,
+    "dpo_beta": 0.5,
+    "effective_batch_size": 32,
+    "score_weights": null,
+    "score_cutoffs": null
+  },
+  "models": {
+    "backbone": {
+      "id": "meta-llama/Llama-3.1-8B-Instruct",
+      "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+      "role": "base only, NOT a trained DualReform checkpoint"
+    },
+    "dense": {
+      "id": "sentence-transformers/gtr-t5-large",
+      "revision": "51aab2cd10b205ba0f3f1ebaf1d4d5460bbf728d",
+      "role": "dense retriever"
+    }
+  }
+}

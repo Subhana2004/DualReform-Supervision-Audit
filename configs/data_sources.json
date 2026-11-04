@@ -1,0 +1,30 @@
+{
+  "archives": [
+    {
+      "dataset": "topiocqa",
+      "filename": "topiocqa.zip",
+      "url": "https://zenodo.org/records/6193037/files/topiocqa.zip?download=1",
+      "members": {
+        "train": "topiocqa/topiocqa_train.json",
+        "dev": "topiocqa/topiocqa_dev.json"
+      },
+      "evaluation_split": "dev",
+      "version": "doi:10.5281/zenodo.6193037; CC-BY-4.0",
+      "size_bytes": 7801758,
+      "sha256": "42f78d19cd9711364fda53f2905866605056ce48d108855196641b0dd41735ce"
+    },
+    {
+      "dataset": "qrecc",
+      "filename": "qrecc_data.zip",
+      "url": "https://raw.githubusercontent.com/apple/ml-qrecc/1d174464290790c0198b474ad022952ecd83b76b/dataset/qrecc_data.zip",
+      "members": {
+        "train": "qrecc_train.json",
+        "test": "qrecc_test.json"
+      },
+      "evaluation_split": "test",
+      "version": "1d174464290790c0198b474ad022952ecd83b76b; CC-BY-SA-3.0",
+      "size_bytes": 7971464,
+      "sha256": "6ed52a0b0e495f752424b15742119a5f8f33ca7a029c07122be1b849de19a308"
+    }
+  ]
+}
