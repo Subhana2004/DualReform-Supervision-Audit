@@ -1,0 +1,40 @@
+{
+  "experiment_id": "track-b2-current-turn-simplewiki-20231101-v1",
+  "preregistered_rule_version": 1,
+  "benchmark": {
+    "path": "data/raw/topiocqa.zip",
+    "member": "topiocqa/topiocqa_train.json",
+    "sha256": "42f78d19cd9711364fda53f2905866605056ce48d108855196641b0dd41735ce",
+    "validation_conversations": 8,
+    "validation_seed": 42,
+    "study_seed": 20261105,
+    "first_eligible_conversations": 30,
+    "eligibility": "first who-question in each hashed conversation with a single 2-4-word title-case alphabetic response; no gold fields consulted"
+  },
+  "corpus": {
+    "kind": "independent_non_equivalent_simple_english_wikipedia",
+    "url": "https://huggingface.co/datasets/wikimedia/wikipedia/resolve/3e1f92c331f318af862b87e2319ed5dc26d80f5d/20231101.simple/train-00000-of-00001.parquet",
+    "revision": "3e1f92c331f318af862b87e2319ed5dc26d80f5d",
+    "license": "CC BY-SA 3.0 / GFDL per Wikimedia dataset card; article URLs provide attribution",
+    "size_bytes": 156885218,
+    "sha256": "31bded16768a47c286becd292079122f5d7d4397a17b87d4250a00ccd581e6f0",
+    "local_path": "work/track_b2/wiki_simple_20231101.parquet",
+    "index_path": "work/track_b2/simplewiki_fts5.sqlite",
+    "prefix_sizes": [10000, 50000, 241787],
+    "inclusion_rule": "all nonempty title/text rows from the complete pinned Parquet shard; no case/topic/entity selection"
+  },
+  "retrieval": {
+    "engine": "SQLite FTS5 BM25, disk backed, unicode61 tokenizer",
+    "bm25_k1": 1.2,
+    "bm25_b": 0.75,
+    "title_weight": 1.0,
+    "text_weight": 1.0,
+    "top_k": 100,
+    "pseudo_k": 3,
+    "query_tokenizer": "Unicode word regex with fixed English function-word removal",
+    "methods": ["response_only", "question_anchored", "question_only"]
+  },
+  "replacement_pool": ["Albert Einstein", "Marie Curie", "Isaac Newton", "Charles Darwin"],
+  "ground_truth": "current question + prior context; following question continuity separate; no gold fields in retrieval queries",
+  "review_status": "single-reviewer provisional until blinded independent review"
+}

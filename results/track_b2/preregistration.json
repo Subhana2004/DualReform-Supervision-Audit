@@ -1,0 +1,13 @@
+{
+  "status": "preregistered_before_track_b2_retrieval",
+  "timestamp_utc": "2026-11-04T19:49:31.641481+00:00",
+  "benchmark_sha256": "42f78d19cd9711364fda53f2905866605056ce48d108855196641b0dd41735ce",
+  "config_sha256": "589a578c89206bb19c5591209ca67e510f120ffa5f54d83ff85d2660dd51bc86",
+  "pairs_sha256": "09386853e0b217ce75fda58aad2fa27c93c982830d84c739631c3bb2423165ef",
+  "conversations_scanned": 141,
+  "independent_conversations": 30,
+  "pairs": 60,
+  "selection_uses_gold_fields": false,
+  "future_turns_used": false,
+  "sampling_rule": "first who-question in each hashed conversation with a single 2-4-word title-case alphabetic response; no gold fields consulted"
+}
